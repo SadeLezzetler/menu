@@ -1,0 +1,1347 @@
+{
+  "tr": {
+    "header": {
+      "tagline": "Sağlıklı Lezzetler, Doğal Tatlar",
+      "taglineEn": "Healthy & Delicious"
+    },
+    "filters": {
+      "toggleBtn": "Filtrele",
+      "title": "🔍 Filtreler",
+      "protein": "🍗 Protein",
+      "carb": "🍞 Karbonhidrat",
+      "allergen": "⚠️ Alerjen Maddeler",
+      "priceRange": "💰 Fiyat Aralığı",
+      "allergenNote": "ℹ️ Seçtiklerinizi içerenler listelenmeyecektir."
+    },
+    "buttons": {
+      "clear": "🔄 Temizle",
+      "apply": "✅ Uygula",
+      "clearFilters": "🔄 Filtreleri Temizle",
+      "showAll": "📋 Tüm Kategorileri Göster"
+    },
+    "menu": {
+      "loading": "Menü yükleniyor",
+      "navLoading": "Yükleniyor",
+      "favorites": "En Sevilenler",
+      "featured": "En Sevilen",
+      "noResults": "Sonuç Bulunamadı",
+      "noResultsFiltered": "Bu {category} seçtiğiniz filtrelere uygun ürün bulunamadı.",
+      "noResultsCategory": "Bu kategoride ürün bulunamadı.",
+      "priceAll": "Tümü",
+      "menuIn": "menüde"
+    },
+    "warning": {
+      "important": "Önemli:",
+      "celiac": "Çölyak durumunuz varsa lütfen sipariş öncesi personelimize bildiriniz."
+    },
+    "footer": {
+      "text": "🌱 Doğal • ♻️ Sürdürülebilir • 💚 Sağlıklı"
+    },
+    "scrollToTop": "Yukarı çık",
+    "modalClose": "Kapat",
+    "categories": {
+      "en-sevilenler": "En Sevilenler",
+      "bowl": "Bowl",
+      "ekmek-ustu": "Ekmek Üstü",
+      "salata": "Salata",
+      "cıtır": "Çıtır",
+      "gurme-serisi": "Gurme Serisi",
+      "durum-burrito": "Dürüm ve Burrito",
+      "french-toast": "French Toast",
+      "bun": "Bun (Ban)",
+      "tost": "Tost",
+      "sandvic": "Sandviç",
+      "makarna": "Makarna & Noodle",
+      "taco": "Taco",
+      "glutensiz-vegan": "Glutensiz / Vegan",
+      "smoothie": "Smoothie",
+      "dogal-icecekler": "Doğal İçecekler",
+      "tatli-bowl": "Tatlı Bowl",
+      "kurabiye": "Kurabiye"
+    },
+    "filterOptions": {
+      "protein": {
+        "tavuk": "Tavuk",
+        "et": "Et",
+        "balik": "Balık",
+        "yumurta": "Yumurta",
+        "tofu": "Tofu",
+        "peynir": "Peynir"
+      },
+      "carb": {
+        "pirinc-cesitleri": "Pirinç Çeşitleri",
+        "makarna-noodle": "Makarna / Noodle",
+        "kuskus": "Kuskus",
+        "karabuday": "Karabuğday",
+        "kinoa": "Kinoa",
+        "baklagil": "Baklagil",
+        "ekmek-cesitleri": "Ekmek Çeşitleri",
+        "lavas": "Lavaş"
+      },
+      "allergens": {
+        "gluten": "Gluten",
+        "sut": "Süt / Laktoz",
+        "yumurta-allergen": "Yumurta",
+        "yer-fistigi": "Yer Fıstığı",
+        "susam": "Susam",
+        "bal": "Bal"
+      }
+    },
+    "priceOptions": {
+      "all": "💰 Tümü",
+      "0-300": "💰 0-300₺",
+      "300-450": "💰💰 300-450₺",
+      "450-600": "💰💰💰 450-600₺",
+      "600+": "💎 600₺+"
+    },
+    "items": {
+      "1": {
+        "name": "Şalgamlı Kuskus Bowl",
+        "description": "Şalgamlı kuskus, ızgara kabak, tavuk sote, yoğurt, yeşil zeytin"
+      },
+      "2": {
+        "name": "Falafel Bowl",
+        "description": "Karabuğday salatası, falafel, söğüş, tahin sos"
+      },
+      "3": {
+        "name": "Fettucini Bowl",
+        "description": "Limon soslu kremalı makarna, haşlanmış sebze, ızgara tavuk"
+      },
+      "4": {
+        "name": "Kinoalı Hellim Bowl",
+        "description": "Kinoa salatası, ızgara hellim, avokado, kuru üzüm"
+      },
+      "5": {
+        "name": "Izgara Tavuk Bowl",
+        "description": "Kuru cacık, ızgara tavuk, marul, avokado, yeşil zeytin"
+      },
+      "6": {
+        "name": "Mantarlı Tavuklu Bowl",
+        "description": "Makarna, kremalı mantarlı tavuk, marul, mor lahana, mısır"
+      },
+      "7": {
+        "name": "Tavuk Pilav Bowl",
+        "description": "Nohutlu pilav, haşlanmış tavuk, çoban salata"
+      },
+      "8": {
+        "name": "Thai Usulü Bowl",
+        "description": "SADE pilav, ızgara mantar, thai soslu çıtır tavuk, salata"
+      },
+      "9": {
+        "name": "Köri Bowl",
+        "description": "Makarna, köri soslu tavuk, salata"
+      },
+      "10": {
+        "name": "Teriyaki Bowl",
+        "description": "Pilav, teriyaki soslu tavuk, salata"
+      },
+      "11": {
+        "name": "Bulgur Bowl",
+        "description": "Meyhane pilavı, kaşarlı mantar, havuç tarator"
+      },
+      "12": {
+        "name": "Mantarlı Kuskus Bowl",
+        "description": "Mantarlı peynir soslu kuskus, haşlanmış sebze, ızgara tavuk"
+      },
+      "13": {
+        "name": "Vegan Bowl",
+        "description": "Mercimek salatası, marul, söğüş, kavrulmuş nohut, lahana turşusu"
+      },
+      "14": {
+        "name": "Köfte Bowl",
+        "description": "Pilav, çoban salata, anne köftesi, patates"
+      },
+      "15": {
+        "name": "SADE Soslu Bowl",
+        "description": "Pilav, SADE soslu tavuk, salata"
+      },
+      "16": {
+        "name": "Köz Patlıcanlı Kuskus Bowl",
+        "description": "SADE soslu kuskus, ızgara tavuk, salata"
+      },
+      "17": {
+        "name": "Pesto Bowl",
+        "description": "Pesto soslu fettucini, ızgara tavuk, salata"
+      },
+      "18": {
+        "name": "Spesiyal Köfte Bowl",
+        "description": "Pilav, sebzeli dometesli köfte, köz patlıcan salatası"
+      },
+      "19": {
+        "name": "Humus Bowl",
+        "description": "Kinoa, humus, çıtır nohut, söğüş, avokado, yeşil zeytin"
+      },
+      "20": {
+        "name": "Somon Bowl",
+        "description": "Soya soslu patates, ızgara kabak, biber, somon"
+      },
+      "21": {
+        "name": "Kremalı Somon",
+        "description": "Kinoa, krema soslu somon, roka, havuç"
+      },
+      "22": {
+        "name": "Teriyaki Soslu Somon",
+        "description": "Basmati, teriyaki soslu somon, lahana turşusu, havuç"
+      },
+      "23": {
+        "name": "Tandır Bowl",
+        "description": "Siyah pirinç, kuzu tandır, guacamole sos, baharatlı mısır, SADE sos, mısır"
+      },
+      "24": {
+        "name": "Happy Fish",
+        "description": "Pesto soslu kuskus, somon, salata"
+      },
+      "25": {
+        "name": "Avokadolu Ekmek Üstü",
+        "description": "Ekşi mayalı ekmek, labneli avokado, haşlanmış yumurta, söğüş"
+      },
+      "26": {
+        "name": "Hellimli Ekmek Üstü",
+        "description": "Ekşi mayalı ekmek, çırpılmış yumurta, ızgara hellim, avokado, söğüş"
+      },
+      "27": {
+        "name": "Hindi Fümeli Ekmek Üstü",
+        "description": "Ekşi mayalı ekmek, labne, hindi füme, avokado, biberli omlet, söğüş"
+      },
+      "28": {
+        "name": "Pesto Ekmek Üstü",
+        "description": "Ekşi mayalı ekmek, pesto sos, ezine peynirli avokado, göz yumurta, acı yağ, söğüş"
+      },
+      "29": {
+        "name": "Sweet Chilli Ekmek Üstü",
+        "description": "Ekşi mayalı ekmek, avokado, sweet chilli soslu hellim ızgara, söğüş"
+      },
+      "30": {
+        "name": "Sucuklu Ekmek Üstü",
+        "description": "Ekşi mayalı ekmek, sucuklu hellimli yumurta, söğüş"
+      },
+      "31": {
+        "name": "Humuslu Ekmek Üstü",
+        "description": "Ekşi mayalı ekmek, humus, çıtır nohut, pastırma, acı yağ, söğüş"
+      },
+      "32": {
+        "name": "Mantarlı Ekmek Üstü",
+        "description": "Ekşi mayalı ekmek, avokado, sarımsak kreması, soyalı mantar, söğüş"
+      },
+      "33": {
+        "name": "Tavuklu Salata",
+        "description": "Marul, turşu, soğan, cherry domates, yoğurt sos, ızgara tavuk, mısır, meksika fasulyesi"
+      },
+      "34": {
+        "name": "Hellimli Salata",
+        "description": "Marul, yeşillik, cherry domates, avokado sos, ızgara hellim, kabak çekirdeği"
+      },
+      "35": {
+        "name": "Falafelli Salata",
+        "description": "Marul, karabuğday, yeşillik, falafel, tahin sos, susam, cherry domates"
+      },
+      "36": {
+        "name": "Çıtır Salata",
+        "description": "Marul, roka, turşu, kırmızı soğan, domates, çıtır tavuk, ballı hardal"
+      },
+      "37": {
+        "name": "Ton Balıklı Salata",
+        "description": "Marul, yeşillik, cherry domates, ton balığı"
+      },
+      "38": {
+        "name": "Acılı Çıtır",
+        "description": "Cajun soslu çıtır tavuk, patates, karamelize soğan sos, pembe sos"
+      },
+      "39": {
+        "name": "Sweet Chilli Çıtır",
+        "description": "Sweet Chilli soslu çıtır tavuk, patates, karamelize soğan sos, pembe sos"
+      },
+      "40": {
+        "name": "Çıtır Thai",
+        "description": "Thai soslu çıtır tavuk, patates, köz biber sos, mayonez"
+      },
+      "41": {
+        "name": "Çıtır Köri",
+        "description": "Körili çıtır tavuk, patates, köz biber sos, mayonez"
+      },
+      "42": {
+        "name": "SADE Çıtır",
+        "description": "200 gr. çıtır tavuk, köz biber sos, ballı hardal, cajun sos, burger sos, mayonez"
+      },
+      "43": {
+        "name": "Köfte Burger",
+        "description": "El yapımı hamberger ekmeği, burger sos, marul, 150 gr. dana köfte, cheddar peyniri, karamelize soğan, mayonez, jalapeno, patates"
+      },
+      "44": {
+        "name": "Tavuk Burger",
+        "description": "El yapımı hamburger ekmeği, marul, acılı ballı hardal, çıtır tavuk but, çıtır kaşar peyniri, kuru soğan, mayonez, jalapeno, patates"
+      },
+      "45": {
+        "name": "Gurme French Toast",
+        "description": "El yapımı brioche ekmeği, kuzu tandır, kapya biber, soğan, eski kaşar, salata"
+      },
+      "46": {
+        "name": "Çıtır Tavuk Dürüm",
+        "description": "Cajun sos, çıtır tavuk, marul, jalapeno, mayonez"
+      },
+      "47": {
+        "name": "Tavuk Dürüm",
+        "description": "Mayonez, marul, tavuk, soğan, jalapone, mayonez"
+      },
+      "48": {
+        "name": "Köfte Dürüm",
+        "description": "Anne köftesi, burger sos, kaşar peyniri, marul, karamelize soğan, mayonez, jalapeno"
+      },
+      "49": {
+        "name": "Tavuk Burrito",
+        "description": "Basmati, labne, soya soslu marine edilmiş mantarlı tavuk göğüs, mısır, meksika fasulyesi, jalapeno, kibrit havuç, sarımsaklı mayonez"
+      },
+      "50": {
+        "name": "Meksika Burrito",
+        "description": "Basmati, bolonez sos, guacamole sos, marul, jalapeno, mayonez"
+      },
+      "51": {
+        "name": "Köfte Burrito",
+        "description": "Basmati, anne köftesi, köz biber, SADE sos, soğan, mayonez, jalapeno"
+      },
+      "52": {
+        "name": "Mantar Burrito (Vegan)",
+        "description": "Basmati, avokado sos, sarımsak kreması, soya soslu mantar sote, havuç, mısır, marul, jalapeno"
+      },
+      "53": {
+        "name": "Tandır Burrito",
+        "description": "Basmati, SADE sos, guacamole sos, kuzu tandır, cheddar peyniri, mayonez, jalapeno"
+      },
+      "54": {
+        "name": "Çilekli French Toast",
+        "description": "Brioche ekmeği, labne kreması, kırmızı meyve, bal"
+      },
+      "55": {
+        "name": "Marmelatlı French Toast",
+        "description": "Brioche ekmeği, labne kreması, orman meyvesi marmelatı, limon kabuğu, nane"
+      },
+      "56": {
+        "name": "Muzlu French Toast",
+        "description": "Brioche ekmeği, yer fıstığı ezmesi, karamelize muz, bal, badem"
+      },
+      "57": {
+        "name": "Fondü French Toast",
+        "description": "Brioche ekmeği, eritilmiş çikolata, çilek, muz"
+      },
+      "58": {
+        "name": "Çıtır French Toast",
+        "description": "Brioche ekmeği, hindi fümeli sos, çıtır tavuk, kuru domates"
+      },
+      "59": {
+        "name": "Scrambled Egg French Toast",
+        "description": "Brioche ekmeği, hindi füme, kaşar peyniri, çırpılmış yumurta, söğüş"
+      },
+      "60": {
+        "name": "Çıtır Bun (3 adet)",
+        "description": "Cajun sos, marul, kuru soğan, çıtır tavuk"
+      },
+      "61": {
+        "name": "Köfte Bun (3 adet)",
+        "description": "Burger sos, marul, domates, anne köftesi"
+      },
+      "62": {
+        "name": "Sote Bun (3 adet)",
+        "description": "Sweet chilli sos, kaşar peyniri, jalapeno, tavuk sote"
+      },
+      "63": {
+        "name": "Sucuk Bun (3 adet)",
+        "description": "Izgara hellim, sucuk, domates, marul"
+      },
+      "64": {
+        "name": "Tavuklu Soğuk Bun (3 adet)",
+        "description": "Tavuklu meze, marul"
+      },
+      "65": {
+        "name": "Tofu Bun (3 adet) (Vegan)",
+        "description": "SADE tofu, havuç, salatalık, lahana turşusu"
+      },
+      "66": {
+        "name": "Teriyaki Bun (3 adet)",
+        "description": "Teriyaki soslu tavuk, soğan, havuç"
+      },
+      "67": {
+        "name": "Tandır Bun (3 adet)",
+        "description": "Kuzu tandır, cheddar peyniri, kibrit patates"
+      },
+      "68": {
+        "name": "Meksika Bun (3 adet)",
+        "description": "Bolonez sos, guacamole sos, kibrit patates"
+      },
+      "69": {
+        "name": "Peynirli Tost",
+        "description": "Cheddar peyniri, kaşar peyniri, söğüş"
+      },
+      "70": {
+        "name": "SADE'nin Tostu",
+        "description": "Kuru domates sos, pesto sos, kaşar peyniri, söğüş"
+      },
+      "71": {
+        "name": "Anne Tostu",
+        "description": "Beyaz peynir, kaşar peyniri, biber, domates, söğüş"
+      },
+      "72": {
+        "name": "Sucuklu Tost",
+        "description": "Sucuk, kaşar peyniri, söğüş"
+      },
+      "73": {
+        "name": "Tandır Tost",
+        "description": "Kuzu tandır, eski kaşar"
+      },
+      "74": {
+        "name": "Sebzeli Sandviç",
+        "description": "Foccacia ekmeği, domates sos, roka, ızgara sebzeler, ezine peyniri"
+      },
+      "75": {
+        "name": "Tavuklu Soğuk Sandviç",
+        "description": "Foccaccia ekmeği, tavuklu meze, soğan turşusu, marul"
+      },
+      "76": {
+        "name": "Kremalı Mantarlı Makarna",
+        "description": "Fettucini, kuru soğan, mantar"
+      },
+      "77": {
+        "name": "Tavuklu Fettucini",
+        "description": "Tavuk, krema, köy peyniri, çıtır soğan"
+      },
+      "78": {
+        "name": "Peynir Soslu Penne",
+        "description": "4 çeşit peynir, muskat"
+      },
+      "79": {
+        "name": "Cheddar Soslu Makarna",
+        "description": "Çıtır tavuklu"
+      },
+      "80": {
+        "name": "Tavuklu Noodle",
+        "description": "Tavuk, kabak, havuç, biber, taze soğan"
+      },
+      "81": {
+        "name": "Sebzeli Noodle",
+        "description": "Mantar, kabak, havuç, biber, taze soğan"
+      },
+      "82": {
+        "name": "Tavuklu Labne Soslu Taco (3 adet)",
+        "description": "Labne sos, tavuk, meksika fasulyesi, jalapeno, çıtır soğan"
+      },
+      "83": {
+        "name": "Klasik Taco",
+        "description": "Bolonez sos, guacamole sos, kibrit patates, meksika fasulyesi, jalapeno"
+      },
+      "84": {
+        "name": "Glutensiz SADE Tofu Bowl",
+        "description": "Zerdeçallı basmati, SADE sos, tofu, salata, avokado"
+      },
+      "85": {
+        "name": "Glutensiz Vegan Thai Usulü Bowl",
+        "description": "Basmati, thai soslu tofu, ızgara mantar, salata"
+      },
+      "86": {
+        "name": "Glutensiz Çıtır Tofu Salata",
+        "description": "Marul, roka, cherry domates, salatalık, mısır, taze soğan, avokado, çıtır tofu, böğürtlen sos"
+      },
+      "87": {
+        "name": "Glutensiz Sweet Chilli Soslu Bowl",
+        "description": "Basmati, haşlanmış sebze, sweet chilli soslu tofu"
+      },
+      "88": {
+        "name": "Glutensiz Pirinç Bowl",
+        "description": "Siyah pirinç, humus, çıtır nohut, teriyaki soslu tofu, salata"
+      },
+      "89": {
+        "name": "Glutensiz Tofu Bun (3 adet)",
+        "description": "SADE soslu tofu, salatalık, havuç, lahana turşusu"
+      },
+      "90": {
+        "name": "Glutensiz Teriyaki Bun (3 adet)",
+        "description": "Teriyaki soslu tavuk, havuç, taze soğan"
+      },
+      "91": {
+        "name": "Glutensiz Tavuklu Soğuk Bun (3 adet)",
+        "description": "Tavuklu meze, marul"
+      },
+      "92": {
+        "name": "Glutensiz Sucuk Bun (3 adet)",
+        "description": "Sucuk, hellim, domates, marul"
+      },
+      "93": {
+        "name": "Glutensiz Sote Bun (3 adet)",
+        "description": "Tavuk sote, sweet chilli sos, jalapeno, kaşar peynir"
+      },
+      "94": {
+        "name": "Glutensiz Tandır Bun (3 adet)",
+        "description": "Kuzu tandır, cheddar peyniri, kibrit patates"
+      },
+      "95": {
+        "name": "Glutensiz Meksika Bun (3 adet)",
+        "description": "Bolonez sos, guacamole sos, kibrit patates"
+      },
+      "96": {
+        "name": "Glutensiz Sebzeli Sandviç",
+        "description": "Domates sos, ızgara sebze, roka, ezine peyniri"
+      },
+      "97": {
+        "name": "Glutensiz Tavuklu Soğuk Sandviç",
+        "description": "Tavuklu meze, soğan turşusu, marul"
+      },
+      "98": {
+        "name": "Glutensiz Avokadolu Ekmek Üstü",
+        "description": "Labneli avokado, haşlanmış yumurta, çörekotu, maydanoz, söğüş"
+      },
+      "99": {
+        "name": "Glutensiz Hellimli Ekmek Üstü",
+        "description": "Çırpılmış yumurta, ızgara hellim, avokado, söğüş"
+      },
+      "100": {
+        "name": "Glutensiz Hindi Fümeli Ekmek Üstü",
+        "description": "Labne, hindi füme, avokado, biberli omlet, söğüş"
+      },
+      "101": {
+        "name": "Glutensiz Pesto Ekmek Üstü",
+        "description": "Pesto sos, ezine peynirli avokado, göz yumurta, acı yağ, söğüş"
+      },
+      "102": {
+        "name": "Glutensiz Humuslu Ekmek Üstü",
+        "description": "Humus, çıtır nohut, pastırma, acı yağ"
+      },
+      "103": {
+        "name": "Glutensiz Mantarlı Ekmek Üstü",
+        "description": "Sarımsak kreması, avokado, soya soslu mantar, susam, söğüş"
+      },
+      "104": {
+        "name": "Glutensiz Sweet Chilli Ekmek Üstü",
+        "description": "Avokado, sweet chilli soslu ızgara hellim, söğüş"
+      },
+      "105": {
+        "name": "Glutensiz Peynirli Tost",
+        "description": "Kaşar peyniri, cheddar peyniri, söğüş"
+      },
+      "106": {
+        "name": "Glutensiz SADE'nin Tostu",
+        "description": "Kuru domates sos, pesto sos, kaşar peyniri, söğüş"
+      },
+      "107": {
+        "name": "Glutensiz Anne Tostu",
+        "description": "Beyaz peynir, domates, biber, kaşar peyniri, söğüş"
+      },
+      "108": {
+        "name": "Glutensiz Sucuklu Tost",
+        "description": "Sucuk, kaşar peyniri, söğüş"
+      },
+      "109": {
+        "name": "Glutensiz Tandır Tost",
+        "description": "Kuzu tandır, eski kaşar, söğüş"
+      },
+      "110": {
+        "name": "Glutensiz Çıtır Dürüm",
+        "description": "Çıtır tavuk, cajun sos, marul, jalapeno, mayonez"
+      },
+      "111": {
+        "name": "Glutensiz Tavuk Dürüm",
+        "description": "Mayonez, soğan, marul, tavuk sote, mayonez, jalapeno"
+      },
+      "112": {
+        "name": "Glutensiz Tavuk Burrito",
+        "description": "Basmati, labne, soya soslu tavuk, havuç, meksika fasulyesi, mısır, mayonez, jalapeno"
+      },
+      "113": {
+        "name": "Glutensiz Mantar Burrito",
+        "description": "Sarımsak kreması, avokado, soya soslu mantar, basmati, havuç, mısır, meksika fasulyesi, jalapeno"
+      },
+      "114": {
+        "name": "Glutensiz Meksika Burrito",
+        "description": "Basmati, bolonez sos, guacamole sos, meksika fasulyesi, mısır, yeşillik, mayonez, jalapeno"
+      },
+      "115": {
+        "name": "Glutensiz Tandır Burrito",
+        "description": "Basmati, SADE sos, kuzu tandır, cheddar, guacamole sos, mayonez, jalapeno"
+      },
+      "116": {
+        "name": "Glutensiz Simit Bowl",
+        "description": "Gulutensiz simit, haşlanmış yumurta, ezine peyniri, yeşil zeytin, avokado, söğüş"
+      },
+      "117": {
+        "name": "Glutensiz Köfte Burger",
+        "description": "Burger sos, marul, glutensiz köfte, cheddar peyniri, karamelize soğan, patates, mayonez, jalapeno"
+      },
+      "118": {
+        "name": "Glutensiz Vegan Burger",
+        "description": "Taco sos, vegan köfte, karamelize soğan, sote mantar, patates, taco sos, jalapeno"
+      },
+      "119": {
+        "name": "Glutensiz Vegan Pasta Çeşitleri",
+        "description": "Limonlu, çilekli, vişneli"
+      },
+      "120": {
+        "name": "Böğürtlenli Smoothie",
+        "description": ""
+      },
+      "121": {
+        "name": "Avokadolu Smoothie",
+        "description": ""
+      },
+      "122": {
+        "name": "Yeşil Detoks Smoothie",
+        "description": ""
+      },
+      "123": {
+        "name": "Kakaolu Smoothie",
+        "description": ""
+      },
+      "124": {
+        "name": "Limonata Çeşitleri",
+        "description": "Sade, çilekli, muzlu, böğürtlenli, sütlü"
+      },
+      "125": {
+        "name": "Ayran Çeşitleri",
+        "description": "Sade, yeşil, sarı, pembe"
+      },
+      "126": {
+        "name": "Yerli Gazoz Çeşitleri",
+        "description": ""
+      },
+      "127": {
+        "name": "Çay",
+        "description": ""
+      },
+      "128": {
+        "name": "Su",
+        "description": ""
+      },
+      "129": {
+        "name": "Glutensiz Çıtır Bun (3 adet)",
+        "description": "Cajun sos, marul, kuru soğan, çıtır tavuk"
+      },
+      "130": {
+        "name": "Yulaf Bowl",
+        "description": "Yulaf lapası, muz, mevsim meyveleri, badem, yer fıstığı ezmesi"
+      },
+      "131": {
+        "name": "Yoğurt Bowl",
+        "description": "Chia, granola, mevsim meyveleri, yer fıstığı ezmesi"
+      },
+      "132": {
+        "name": "Smoothie Bowl",
+        "description": "Çilek, muz, granola, mevsim meyveleri, hindistan cevizi, bal"
+      },
+      "133": {
+        "name": "Çikolatalı Smoothie Bowl",
+        "description": "Muz, kakao, granola, çikolata, hindistan cevizi"
+      },
+      "134": {
+        "name": "Three Chocolate Chips Cookie",
+        "description": ""
+      },
+      "135": {
+        "name": "Badem Kremalı Kurabiye",
+        "description": ""
+      },
+      "136": {
+        "name": "Antep Fıstığı Dolgulu Kurabiye",
+        "description": ""
+      },
+      "137": {
+        "name": "Beyaz Çikolata Dolgulu Kurabiye",
+        "description": ""
+      },
+      "138": {
+        "name": "Tadelle Kurabiye (kg)",
+        "description": ""
+      },
+      "139": {
+        "name": "Tatlı Kurabiye (kg)",
+        "description": ""
+      },
+      "140": {
+        "name": "Tuzlu Kurabiye (kg)",
+        "description": ""
+      },
+      "141": {
+        "name": "Glutensiz Kurabiye",
+        "description": ""
+      }
+    },
+    "badges": {
+      "vegan": "Vegan",
+      "glutensiz": "Glutensiz",
+      "sekersiz": "Şekersiz",
+      "organik": "Organik"
+    },
+    "modal": {
+      "allergens": "⚠️ Alerjenler",
+      "noAllergens": "✅ Alerjen içermez"
+    }
+  },
+  "en": {
+    "header": {
+      "tagline": "Healthy Flavors, Natural Tastes",
+      "taglineEn": "Healthy & Delicious"
+    },
+    "filters": {
+      "toggleBtn": "Filter",
+      "title": "🔍 Filters",
+      "protein": "🍗 Protein",
+      "carb": "🍞 Carbohydrate",
+      "allergen": "⚠️ Allergens",
+      "priceRange": "💰 Price Range",
+      "allergenNote": "ℹ️ Items containing your selected allergens will be excluded."
+    },
+    "buttons": {
+      "clear": "🔄 Clear",
+      "apply": "✅ Apply",
+      "clearFilters": "🔄 Clear Filters",
+      "showAll": "📋 Show All Categories"
+    },
+    "menu": {
+      "loading": "Loading menu",
+      "navLoading": "Loading",
+      "favorites": "Favorites",
+      "featured": "Customer Favorite",
+      "noResults": "No Results Found",
+      "noResultsFiltered": "No items matching your filters were found in {category}.",
+      "noResultsCategory": "No items found in this category.",
+      "priceAll": "All",
+      "menuIn": "the menu"
+    },
+    "warning": {
+      "important": "Important:",
+      "celiac": "If you have celiac disease, please inform our staff before ordering."
+    },
+    "footer": {
+      "text": "🌱 Natural • ♻️ Sustainable • 💚 Healthy",
+      "copy": "Simple Flavors - 2026"
+    },
+    "scrollToTop": "Scroll to top",
+    "modalClose": "Close",
+    "categories": {
+      "en-sevilenler": "Customer Favorites",
+      "bowl": "Bowl",
+      "ekmek-ustu": "Open-Faced Toast",
+      "salata": "Salad",
+      "cıtır": "Crispy",
+      "gurme-serisi": "Gourmet Series",
+      "durum-burrito": "Wrap & Burrito",
+      "french-toast": "French Toast",
+      "bun": "Bun",
+      "tost": "Toast",
+      "sandvic": "Sandwich",
+      "makarna": "Pasta & Noodle",
+      "taco": "Taco",
+      "glutensiz-vegan": "Gluten-Free / Vegan",
+      "smoothie": "Smoothie",
+      "dogal-icecekler": "Natural Drinks",
+      "tatli-bowl": "Dessert Bowl",
+      "kurabiye": "Cookies"
+    },
+    "filterOptions": {
+      "protein": {
+        "tavuk": "Chicken",
+        "et": "Meat",
+        "balik": "Fish",
+        "yumurta": "Egg",
+        "tofu": "Tofu",
+        "peynir": "Cheese"
+      },
+      "carb": {
+        "pirinc-cesitleri": "Rice Varieties",
+        "makarna-noodle": "Pasta / Noodle",
+        "kuskus": "Couscous",
+        "karabuday": "Buckwheat",
+        "kinoa": "Quinoa",
+        "baklagil": "Legumes",
+        "ekmek-cesitleri": "Bread Varieties",
+        "lavas": "Lavash"
+      },
+      "allergens": {
+        "gluten": "Gluten",
+        "sut": "Dairy / Lactose",
+        "yumurta-allergen": "Egg",
+        "yer-fistigi": "Peanut",
+        "susam": "Sesame",
+        "bal": "Honey"
+      }
+    },
+    "priceOptions": {
+      "all": "💰 All",
+      "0-300": "💰 0-300₺",
+      "300-450": "💰💰 300-450₺",
+      "450-600": "💰💰💰 450-600₺",
+      "600+": "💎 600₺+"
+    },
+    "items": {
+      "1": {
+        "name": "Turnip Couscous Bowl",
+        "description": "Turnip couscous, grilled zucchini, sautéed chicken, yogurt, green olives"
+      },
+      "2": {
+        "name": "Falafel Bowl",
+        "description": "Buckwheat salad, falafel, raw vegetables, tahini sauce"
+      },
+      "3": {
+        "name": "Fettucini Bowl",
+        "description": "Creamy lemon pasta, steamed vegetables, grilled chicken"
+      },
+      "4": {
+        "name": "Quinoa Halloumi Bowl",
+        "description": "Quinoa salad, grilled halloumi, avocado, raisins"
+      },
+      "5": {
+        "name": "Grilled Chicken Bowl",
+        "description": "Garlic yogurt dip, grilled chicken, lettuce, avocado, green olives"
+      },
+      "6": {
+        "name": "Mushroom Chicken Bowl",
+        "description": "Pasta, creamy mushroom chicken, lettuce, red cabbage, corn"
+      },
+      "7": {
+        "name": "Chicken Rice Bowl",
+        "description": "Chickpea rice, boiled chicken, shepherd's salad"
+      },
+      "8": {
+        "name": "Thai Style Bowl",
+        "description": "SADE rice, grilled mushrooms, Thai crispy chicken, salad"
+      },
+      "9": {
+        "name": "Curry Bowl",
+        "description": "Pasta, curry chicken, salad"
+      },
+      "10": {
+        "name": "Teriyaki Bowl",
+        "description": "Rice, teriyaki chicken, salad"
+      },
+      "11": {
+        "name": "Bulgur Bowl",
+        "description": "Tavern bulgur pilaf, cheesy mushrooms, carrot tarator"
+      },
+      "12": {
+        "name": "Mushroom Couscous Bowl",
+        "description": "Mushroom cheese sauce couscous, steamed vegetables, grilled chicken"
+      },
+      "13": {
+        "name": "Vegan Bowl",
+        "description": "Lentil salad, lettuce, raw vegetables, roasted chickpeas, sauerkraut"
+      },
+      "14": {
+        "name": "Meatball Bowl",
+        "description": "Rice, shepherd's salad, house meatballs, potatoes"
+      },
+      "15": {
+        "name": "SADE Sauce Bowl",
+        "description": "Rice, SADE sauce chicken, salad"
+      },
+      "16": {
+        "name": "Roasted Eggplant Couscous Bowl",
+        "description": "SADE sauce couscous, grilled chicken, salad"
+      },
+      "17": {
+        "name": "Pesto Bowl",
+        "description": "Pesto fettucini, grilled chicken, salad"
+      },
+      "18": {
+        "name": "Special Meatball Bowl",
+        "description": "Rice, vegetable tomato meatballs, roasted eggplant salad"
+      },
+      "19": {
+        "name": "Hummus Bowl",
+        "description": "Quinoa, hummus, crispy chickpeas, raw vegetables, avocado, green olives"
+      },
+      "20": {
+        "name": "Salmon Bowl",
+        "description": "Soy sauce potatoes, grilled zucchini, pepper, salmon"
+      },
+      "21": {
+        "name": "Creamy Salmon",
+        "description": "Quinoa, cream sauce salmon, arugula, carrots"
+      },
+      "22": {
+        "name": "Teriyaki Salmon",
+        "description": "Basmati, teriyaki salmon, sauerkraut, carrots"
+      },
+      "23": {
+        "name": "Tandır Bowl",
+        "description": "Black rice, lamb tandır, guacamole sauce, spiced corn, SADE sauce, corn"
+      },
+      "24": {
+        "name": "Happy Fish",
+        "description": "Pesto couscous, salmon, salad"
+      },
+      "25": {
+        "name": "Avocado Toast",
+        "description": "Sourdough bread, labne avocado, boiled egg, raw vegetables"
+      },
+      "26": {
+        "name": "Halloumi Toast",
+        "description": "Sourdough bread, scrambled egg, grilled halloumi, avocado, raw vegetables"
+      },
+      "27": {
+        "name": "Smoked Turkey Toast",
+        "description": "Sourdough bread, labne, smoked turkey, avocado, pepper omelette, raw vegetables"
+      },
+      "28": {
+        "name": "Pesto Toast",
+        "description": "Sourdough bread, pesto sauce, ezine cheese avocado, fried egg, chili oil, raw vegetables"
+      },
+      "29": {
+        "name": "Sweet Chilli Toast",
+        "description": "Sourdough bread, avocado, sweet chilli grilled halloumi, raw vegetables"
+      },
+      "30": {
+        "name": "Sucuk Toast",
+        "description": "Sourdough bread, sucuk and halloumi egg, raw vegetables"
+      },
+      "31": {
+        "name": "Hummus Toast",
+        "description": "Sourdough bread, hummus, crispy chickpeas, pastrami, chili oil, raw vegetables"
+      },
+      "32": {
+        "name": "Mushroom Toast",
+        "description": "Sourdough bread, avocado, garlic cream, soy mushrooms, raw vegetables"
+      },
+      "33": {
+        "name": "Chicken Salad",
+        "description": "Lettuce, pickles, onion, cherry tomatoes, yogurt sauce, grilled chicken, corn, Mexican beans"
+      },
+      "34": {
+        "name": "Halloumi Salad",
+        "description": "Lettuce, greens, cherry tomatoes, avocado sauce, grilled halloumi, pumpkin seeds"
+      },
+      "35": {
+        "name": "Falafel Salad",
+        "description": "Lettuce, buckwheat, greens, falafel, tahini sauce, sesame, cherry tomatoes"
+      },
+      "36": {
+        "name": "Crispy Chicken Salad",
+        "description": "Lettuce, arugula, pickles, red onion, tomatoes, crispy chicken, honey mustard"
+      },
+      "37": {
+        "name": "Tuna Salad",
+        "description": "Lettuce, greens, cherry tomatoes, tuna"
+      },
+      "38": {
+        "name": "Spicy Crispy",
+        "description": "Cajun crispy chicken, fries, caramelized onion sauce, pink sauce"
+      },
+      "39": {
+        "name": "Sweet Chilli Crispy",
+        "description": "Sweet chilli crispy chicken, fries, caramelized onion sauce, pink sauce"
+      },
+      "40": {
+        "name": "Thai Crispy",
+        "description": "Thai crispy chicken, fries, roasted pepper sauce, mayonnaise"
+      },
+      "41": {
+        "name": "Curry Crispy",
+        "description": "Curry crispy chicken, fries, roasted pepper sauce, mayonnaise"
+      },
+      "42": {
+        "name": "SADE Crispy",
+        "description": "200g crispy chicken, roasted pepper sauce, honey mustard, cajun sauce, burger sauce, mayonnaise"
+      },
+      "43": {
+        "name": "Meatball Burger",
+        "description": "Homemade bun, burger sauce, lettuce, 150g beef meatball, cheddar cheese, caramelized onion, mayonnaise, jalapeño, fries"
+      },
+      "44": {
+        "name": "Chicken Burger",
+        "description": "Homemade bun, lettuce, spicy honey mustard, crispy chicken thigh, crispy kashkaval, crispy onion, mayonnaise, jalapeño, fries"
+      },
+      "45": {
+        "name": "Gourmet French Toast",
+        "description": "Homemade brioche, lamb tandır, roasted pepper, onion, aged kashkaval, salad"
+      },
+      "46": {
+        "name": "Crispy Chicken Wrap",
+        "description": "Cajun sauce, crispy chicken, lettuce, jalapeño, mayonnaise"
+      },
+      "47": {
+        "name": "Chicken Wrap",
+        "description": "Mayonnaise, lettuce, chicken, onion, jalapeño"
+      },
+      "48": {
+        "name": "Meatball Wrap",
+        "description": "House meatballs, burger sauce, kashkaval, lettuce, caramelized onion, mayonnaise, jalapeño"
+      },
+      "49": {
+        "name": "Chicken Burrito",
+        "description": "Basmati, labne, soy marinated mushroom chicken, corn, Mexican beans, jalapeño, julienned carrots, garlic mayo"
+      },
+      "50": {
+        "name": "Mexican Burrito",
+        "description": "Basmati, bolognese sauce, guacamole, lettuce, jalapeño, mayonnaise"
+      },
+      "51": {
+        "name": "Meatball Burrito",
+        "description": "Basmati, house meatballs, roasted pepper, SADE sauce, onion, mayonnaise, jalapeño"
+      },
+      "52": {
+        "name": "Mushroom Burrito (Vegan)",
+        "description": "Basmati, avocado sauce, garlic cream, soy mushrooms, carrots, corn, lettuce, jalapeño"
+      },
+      "53": {
+        "name": "Tandır Burrito",
+        "description": "Basmati, SADE sauce, guacamole, lamb tandır, cheddar, mayonnaise, jalapeño"
+      },
+      "54": {
+        "name": "Strawberry French Toast",
+        "description": "Brioche bread, labne cream, red berries, honey"
+      },
+      "55": {
+        "name": "Jam French Toast",
+        "description": "Brioche bread, labne cream, forest berry jam, lemon zest, mint"
+      },
+      "56": {
+        "name": "Banana French Toast",
+        "description": "Brioche bread, peanut butter, caramelized banana, honey, almonds"
+      },
+      "57": {
+        "name": "Fondue French Toast",
+        "description": "Brioche bread, melted chocolate, strawberry, banana"
+      },
+      "58": {
+        "name": "Crispy French Toast",
+        "description": "Brioche bread, smoked turkey sauce, crispy chicken, sun-dried tomatoes"
+      },
+      "59": {
+        "name": "Scrambled Egg French Toast",
+        "description": "Brioche bread, smoked turkey, kashkaval, scrambled eggs, raw vegetables"
+      },
+      "60": {
+        "name": "Crispy Bun (3 pcs)",
+        "description": "Cajun sauce, lettuce, crispy onion, crispy chicken"
+      },
+      "61": {
+        "name": "Meatball Bun (3 pcs)",
+        "description": "Burger sauce, lettuce, tomatoes, house meatballs"
+      },
+      "62": {
+        "name": "Sauté Bun (3 pcs)",
+        "description": "Sweet chilli sauce, kashkaval, jalapeño, sautéed chicken"
+      },
+      "63": {
+        "name": "Sucuk Bun (3 pcs)",
+        "description": "Grilled halloumi, sucuk, tomatoes, lettuce"
+      },
+      "64": {
+        "name": "Cold Chicken Bun (3 pcs)",
+        "description": "Chicken spread, lettuce"
+      },
+      "65": {
+        "name": "Tofu Bun (3 pcs) (Vegan)",
+        "description": "SADE tofu, carrots, cucumber, sauerkraut"
+      },
+      "66": {
+        "name": "Teriyaki Bun (3 pcs)",
+        "description": "Teriyaki chicken, onion, carrots"
+      },
+      "67": {
+        "name": "Tandır Bun (3 pcs)",
+        "description": "Lamb tandır, cheddar cheese, matchstick fries"
+      },
+      "68": {
+        "name": "Mexican Bun (3 pcs)",
+        "description": "Bolognese sauce, guacamole, matchstick fries"
+      },
+      "69": {
+        "name": "Cheese Toast",
+        "description": "Cheddar cheese, kashkaval, raw vegetables"
+      },
+      "70": {
+        "name": "SADE Toast",
+        "description": "Sun-dried tomato sauce, pesto sauce, kashkaval, raw vegetables"
+      },
+      "71": {
+        "name": "Mom's Toast",
+        "description": "White cheese, kashkaval, pepper, tomatoes, raw vegetables"
+      },
+      "72": {
+        "name": "Sucuk Toast",
+        "description": "Sucuk, kashkaval, raw vegetables"
+      },
+      "73": {
+        "name": "Tandır Toast",
+        "description": "Lamb tandır, aged kashkaval"
+      },
+      "74": {
+        "name": "Vegetable Sandwich",
+        "description": "Focaccia, tomato sauce, arugula, grilled vegetables, ezine cheese"
+      },
+      "75": {
+        "name": "Cold Chicken Sandwich",
+        "description": "Focaccia, chicken spread, pickled onion, lettuce"
+      },
+      "76": {
+        "name": "Creamy Mushroom Pasta",
+        "description": "Fettucini, crispy onion, mushrooms"
+      },
+      "77": {
+        "name": "Chicken Fettucini",
+        "description": "Chicken, cream, village cheese, crispy onion"
+      },
+      "78": {
+        "name": "Cheese Sauce Penne",
+        "description": "4 types of cheese, nutmeg"
+      },
+      "79": {
+        "name": "Cheddar Pasta",
+        "description": "With crispy chicken"
+      },
+      "80": {
+        "name": "Chicken Noodle",
+        "description": "Chicken, zucchini, carrots, pepper, spring onion"
+      },
+      "81": {
+        "name": "Vegetable Noodle",
+        "description": "Mushrooms, zucchini, carrots, pepper, spring onion"
+      },
+      "82": {
+        "name": "Chicken Labne Taco (3 pcs)",
+        "description": "Labne sauce, chicken, Mexican beans, jalapeño, crispy onion"
+      },
+      "83": {
+        "name": "Classic Taco",
+        "description": "Bolognese, guacamole, matchstick fries, Mexican beans, jalapeño"
+      },
+      "84": {
+        "name": "Gluten-Free SADE Tofu Bowl",
+        "description": "Turmeric basmati, SADE sauce, tofu, salad, avocado"
+      },
+      "85": {
+        "name": "Gluten-Free Vegan Thai Bowl",
+        "description": "Basmati, Thai tofu, grilled mushrooms, salad"
+      },
+      "86": {
+        "name": "Gluten-Free Crispy Tofu Salad",
+        "description": "Lettuce, arugula, cherry tomatoes, cucumber, corn, spring onion, avocado, crispy tofu, blackberry sauce"
+      },
+      "87": {
+        "name": "Gluten-Free Sweet Chilli Bowl",
+        "description": "Basmati, steamed vegetables, sweet chilli tofu"
+      },
+      "88": {
+        "name": "Gluten-Free Rice Bowl",
+        "description": "Black rice, hummus, crispy chickpeas, teriyaki tofu, salad"
+      },
+      "89": {
+        "name": "Gluten-Free Tofu Bun (3 pcs)",
+        "description": "SADE tofu, cucumber, carrots, sauerkraut"
+      },
+      "90": {
+        "name": "Gluten-Free Teriyaki Bun (3 pcs)",
+        "description": "Teriyaki chicken, carrots, spring onion"
+      },
+      "91": {
+        "name": "Gluten-Free Cold Chicken Bun (3 pcs)",
+        "description": "Chicken spread, lettuce"
+      },
+      "92": {
+        "name": "Gluten-Free Sucuk Bun (3 pcs)",
+        "description": "Sucuk, halloumi, tomatoes, lettuce"
+      },
+      "93": {
+        "name": "Gluten-Free Sauté Bun (3 pcs)",
+        "description": "Sautéed chicken, sweet chilli sauce, jalapeño, kashkaval"
+      },
+      "94": {
+        "name": "Gluten-Free Tandır Bun (3 pcs)",
+        "description": "Lamb tandır, cheddar cheese, matchstick fries"
+      },
+      "95": {
+        "name": "Gluten-Free Mexican Bun (3 pcs)",
+        "description": "Bolognese sauce, guacamole, matchstick fries"
+      },
+      "96": {
+        "name": "Gluten-Free Vegetable Sandwich",
+        "description": "Tomato sauce, grilled vegetables, arugula, ezine cheese"
+      },
+      "97": {
+        "name": "Gluten-Free Cold Chicken Sandwich",
+        "description": "Chicken spread, pickled onion, lettuce"
+      },
+      "98": {
+        "name": "Gluten-Free Avocado Toast",
+        "description": "Labne avocado, boiled egg, black seed, parsley, raw vegetables"
+      },
+      "99": {
+        "name": "Gluten-Free Halloumi Toast",
+        "description": "Scrambled egg, grilled halloumi, avocado, raw vegetables"
+      },
+      "100": {
+        "name": "Gluten-Free Smoked Turkey Toast",
+        "description": "Labne, smoked turkey, avocado, pepper omelette, raw vegetables"
+      },
+      "101": {
+        "name": "Gluten-Free Pesto Toast",
+        "description": "Pesto sauce, ezine cheese avocado, fried egg, chili oil, raw vegetables"
+      },
+      "102": {
+        "name": "Gluten-Free Hummus Toast",
+        "description": "Hummus, crispy chickpeas, pastrami, chili oil"
+      },
+      "103": {
+        "name": "Gluten-Free Mushroom Toast",
+        "description": "Garlic cream, avocado, soy mushrooms, sesame, raw vegetables"
+      },
+      "104": {
+        "name": "Gluten-Free Sweet Chilli Toast",
+        "description": "Avocado, sweet chilli grilled halloumi, raw vegetables"
+      },
+      "105": {
+        "name": "Gluten-Free Cheese Toast",
+        "description": "Kashkaval, cheddar cheese, raw vegetables"
+      },
+      "106": {
+        "name": "Gluten-Free SADE Toast",
+        "description": "Sun-dried tomato sauce, pesto sauce, kashkaval, raw vegetables"
+      },
+      "107": {
+        "name": "Gluten-Free Mom's Toast",
+        "description": "White cheese, tomatoes, pepper, kashkaval, raw vegetables"
+      },
+      "108": {
+        "name": "Gluten-Free Sucuk Toast",
+        "description": "Sucuk, kashkaval, raw vegetables"
+      },
+      "109": {
+        "name": "Gluten-Free Tandır Toast",
+        "description": "Lamb tandır, aged kashkaval, raw vegetables"
+      },
+      "110": {
+        "name": "Gluten-Free Crispy Wrap",
+        "description": "Crispy chicken, cajun sauce, lettuce, jalapeño, mayonnaise"
+      },
+      "111": {
+        "name": "Gluten-Free Chicken Wrap",
+        "description": "Mayonnaise, onion, lettuce, sautéed chicken, jalapeño"
+      },
+      "112": {
+        "name": "Gluten-Free Chicken Burrito",
+        "description": "Basmati, labne, soy chicken, carrots, Mexican beans, corn, mayonnaise, jalapeño"
+      },
+      "113": {
+        "name": "Gluten-Free Mushroom Burrito",
+        "description": "Garlic cream, avocado, soy mushrooms, basmati, carrots, corn, Mexican beans, jalapeño"
+      },
+      "114": {
+        "name": "Gluten-Free Mexican Burrito",
+        "description": "Basmati, bolognese sauce, guacamole, Mexican beans, corn, greens, mayonnaise, jalapeño"
+      },
+      "115": {
+        "name": "Gluten-Free Tandır Burrito",
+        "description": "Basmati, SADE sauce, lamb tandır, cheddar, guacamole, mayonnaise, jalapeño"
+      },
+      "116": {
+        "name": "Gluten-Free Bagel Bowl",
+        "description": "Gluten-free bagel, boiled egg, ezine cheese, green olives, avocado, raw vegetables"
+      },
+      "117": {
+        "name": "Gluten-Free Meatball Burger",
+        "description": "Burger sauce, lettuce, gluten-free meatball, cheddar cheese, caramelized onion, fries, mayonnaise, jalapeño"
+      },
+      "118": {
+        "name": "Gluten-Free Vegan Burger",
+        "description": "Taco sauce, vegan patty, caramelized onion, sautéed mushrooms, fries, jalapeño"
+      },
+      "119": {
+        "name": "Gluten-Free Vegan Pasta Varieties",
+        "description": "Lemon, strawberry, cherry"
+      },
+      "120": {
+        "name": "Blackberry Smoothie",
+        "description": ""
+      },
+      "121": {
+        "name": "Avocado Smoothie",
+        "description": ""
+      },
+      "122": {
+        "name": "Green Detox Smoothie",
+        "description": ""
+      },
+      "123": {
+        "name": "Cacao Smoothie",
+        "description": ""
+      },
+      "124": {
+        "name": "Lemonade Varieties",
+        "description": "Plain, strawberry, banana, blackberry, milky"
+      },
+      "125": {
+        "name": "Ayran Varieties",
+        "description": "Plain, green, yellow, pink"
+      },
+      "126": {
+        "name": "Local Soda Varieties",
+        "description": ""
+      },
+      "127": {
+        "name": "Tea",
+        "description": ""
+      },
+      "128": {
+        "name": "Water",
+        "description": ""
+      },
+      "129": {
+        "name": "Gluten-Free Crispy Bun (3 pcs)",
+        "description": "Cajun sauce, lettuce, crispy onion, crispy chicken"
+      },
+      "130": {
+        "name": "Oat Bowl",
+        "description": "Oatmeal, banana, seasonal fruits, almonds, peanut butter"
+      },
+      "131": {
+        "name": "Yogurt Bowl",
+        "description": "Chia, granola, seasonal fruits, peanut butter"
+      },
+      "132": {
+        "name": "Smoothie Bowl",
+        "description": "Strawberry, banana, granola, seasonal fruits, coconut, honey"
+      },
+      "133": {
+        "name": "Chocolate Smoothie Bowl",
+        "description": "Banana, cacao, granola, chocolate, coconut"
+      },
+      "134": {
+        "name": "Three Chocolate Chip Cookie",
+        "description": ""
+      },
+      "135": {
+        "name": "Almond Cream Cookie",
+        "description": ""
+      },
+      "136": {
+        "name": "Pistachio-Filled Cookie",
+        "description": ""
+      },
+      "137": {
+        "name": "White Chocolate-Filled Cookie",
+        "description": ""
+      },
+      "138": {
+        "name": "Tadelle Cookie (per kg)",
+        "description": ""
+      },
+      "139": {
+        "name": "Sweet Cookie (per kg)",
+        "description": ""
+      },
+      "140": {
+        "name": "Savory Cookie (per kg)",
+        "description": ""
+      },
+      "141": {
+        "name": "Gluten-Free Cookie",
+        "description": ""
+      }
+    },
+    "badges": {
+      "vegan": "Vegan",
+      "glutensiz": "Gluten-Free",
+      "sekersiz": "Sugar-Free",
+      "organik": "Organic"
+    },
+    "modal": {
+      "allergens": "⚠️ Allergens",
+      "noAllergens": "✅ No allergens"
+    }
+  }
+}
