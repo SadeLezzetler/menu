@@ -1,56 +1,178 @@
 // Main application state
 let menuData = null;
 let currentFilter = 'all';
-let activeIngredients = [];
-let activePriceRange = 'all';
 
 /* ============================================
-   SMART INGREDIENT FILTERS (19 filters, 41+ ingredients covered)
+   ORDER MODE SYSTEM (online / restaurant)
    ============================================ */
 
-const SMART_INGREDIENTS = [
-    // GRUP 1: Protein Kaynakları
-    { id: 'tavuk', name: 'Tavuk', icon: '🍗', category: 'protein', description: 'Tavuk içeren tüm yemekler' },
-    { id: 'kirmizi-et', name: 'Kırmızı Et', icon: '🥩', category: 'protein', description: 'Et, köfte, kuzu, tandır', includes: ['et', 'köfte', 'kuzu', 'tandır', 'dana', 'anne köftesi'] },
-    { id: 'deniz-urunleri', name: 'Deniz Ürünleri', icon: '🐟', category: 'protein', description: 'Somon, ton balığı', includes: ['somon', 'ton balığı', 'balık'] },
-    { id: 'yumurta', name: 'Yumurta', icon: '🥚', category: 'protein', description: 'Yumurta içeren yemekler' },
+// Read ?type=online or ?type=restaurant from URL; default to 'restaurant'
+function getOrderMode() {
+    const params = new URLSearchParams(window.location.search);
+    const type = params.get('type');
+    return type === 'online' ? 'online' : 'restaurant';
+}
 
-    // GRUP 2: Vejetaryen/Vegan Protein
-    { id: 'baklagil', name: 'Baklagiller', icon: '🫘', category: 'protein', description: 'Falafel, humus, nohut, fasulye', includes: ['falafel', 'humus', 'nohut', 'çıtır nohut', 'meksika fasulyesi', 'fasulye'] },
-    { id: 'tofu', name: 'Tofu', icon: '🟨', category: 'protein', description: 'Tofu içeren vegan yemekler' },
-    { id: 'hellim', name: 'Hellim', icon: '🧀', category: 'protein', description: 'Izgara hellim' },
+// Cached order mode — set once at page load
+const orderMode = getOrderMode();
 
-    // GRUP 3: Süt Ürünleri
-    { id: 'peynir', name: 'Peynir', icon: '🧀', category: 'dairy', description: 'Kaşar, cheddar, ezine, parmesan', includes: ['kaşar', 'cheddar', 'ezine', 'eski kaşar', 'beyaz peynir', 'peynir', 'köy peyniri', 'parmesan'] },
-    { id: 'sut-urunleri', name: 'Süt/Krema/Yoğurt', icon: '🥛', category: 'dairy', description: 'Krema, yoğurt, labne içeren', includes: ['krema', 'yoğurt', 'labne', 'süt', 'kuru cacık'] },
+// Return the correct price for the current order mode
+function getPrice(item) {
+    if (orderMode === 'online') {
+        return item.priceOnline !== undefined ? item.priceOnline : item.priceRestaurant;
+    }
+    return item.priceRestaurant !== undefined ? item.priceRestaurant : item.priceOnline;
+}
 
-    // GRUP 4: Karbonhidrat
-    { id: 'ekmek', name: 'Ekmek', icon: '🍞', category: 'carb', description: 'Tüm ekmek ürünleri', includes: ['ekmek', 'ekşi mayalı ekmek', 'wrap', 'tortilla', 'bun', 'brioche', 'foccacia'] },
-    { id: 'pilav-tahil', name: 'Pilav/Tahıl', icon: '🍚', category: 'carb', description: 'Pilav, kinoa, bulgur, kuskus', includes: ['pilav', 'basmati', 'siyah pirinç', 'pirinç', 'kinoa', 'bulgur', 'kuskus', 'karabuğday', 'meyhane pilavı'] },
-    { id: 'makarna', name: 'Makarna/Noodle', icon: '🍝', category: 'carb', description: 'Makarna, fettucini, penne, noodle', includes: ['makarna', 'fettucini', 'penne', 'noodle', 'pasta'] },
+/* ============================================
+   LANGUAGE / TRANSLATION SYSTEM
+   ============================================ */
 
-    // GRUP 5: Popüler Sebzeler
-    { id: 'avokado', name: 'Avokado', icon: '🥑', category: 'veggie', description: 'Avokado içeren' },
-    { id: 'mantar', name: 'Mantar', icon: '🍄', category: 'veggie', description: 'Mantar sote, ızgara mantar' },
-    { id: 'patates', name: 'Patates', icon: '🥔', category: 'veggie', description: 'Patates, kibrit patates' },
+let currentLanguage = localStorage.getItem('language') || 'tr';
+let translations = {};
 
-    // GRUP 6: Sos Profilleri
-    { id: 'acili', name: 'Acılı', icon: '🌶️', category: 'sauce', description: 'Cajun, thai, sweet chilli, jalapeno', includes: ['cajun', 'cajun sos', 'thai', 'thai sos', 'sweet chilli', 'jalapeno', 'acı'] },
-    { id: 'kremali', name: 'Kremalı Soslar', icon: '🥛', category: 'sauce', description: 'Krema sos, peynir sos, cheddar sos', includes: ['krema sos', 'kremalı', 'peynir sos', 'cheddar sos', 'limon soslu kremalı'] },
-    { id: 'asya-usulu', name: 'Asya Sosları', icon: '🥢', category: 'sauce', description: 'Teriyaki, soya sos', includes: ['teriyaki', 'teriyaki sos', 'soya', 'soya sos'] },
-    { id: 'ozel-soslar', name: 'SADE Özel Soslar', icon: '⭐', category: 'sauce', description: 'SADE sos, pesto, guacamole, tahin', includes: ['SADE sos', 'pesto', 'pesto sos', 'guacamole', 'guacamole sos', 'tahin', 'tahin sos', 'burger sos', 'köz biber sos', 'ballı hardal'] },
+// Load translations from JSON file
+async function loadTranslations() {
+    try {
+        const response = await fetch('translations.json');
+        if (!response.ok) throw new Error('Translations could not be loaded');
+        translations = await response.json();
+    } catch (error) {
+        console.error('Error loading translations:', error);
+        translations = {};
+    }
+}
 
-    // GRUP 7: Şarküteri
-    { id: 'sarkuteri', name: 'Şarküteri', icon: '🌭', category: 'special', description: 'Sucuk, pastırma, hindi füme', includes: ['sucuk', 'pastırma', 'hindi füme', 'hindi fümeli'] }
-];
+// Get a translated string by dot-notation path, with optional fallback
+function getTranslation(path, fallback) {
+    const keys = path.split('.');
+    let obj = translations[currentLanguage];
+    for (const key of keys) {
+        if (obj == null) return fallback !== undefined ? fallback : path;
+        obj = obj[key];
+    }
+    return (obj !== undefined && obj !== null) ? obj : (fallback !== undefined ? fallback : path);
+}
 
-const PRICE_RANGES = [
-    { id: 'all', name: 'Tümü', min: 0, max: Infinity, icon: '💰' },
-    { id: '0-300', name: '0-300₺', min: 0, max: 300, icon: '💰' },
-    { id: '300-450', name: '300-450₺', min: 300, max: 450, icon: '💰💰' },
-    { id: '450-600', name: '450-600₺', min: 450, max: 600, icon: '💰💰💰' },
-    { id: '600+', name: '600₺+', min: 600, max: Infinity, icon: '💎' }
-];
+// Switch the active language and refresh all UI text
+function setLanguage(lang) {
+    currentLanguage = lang;
+    localStorage.setItem('language', lang);
+    document.documentElement.lang = lang;
+
+    // Update the language switcher button to show the OTHER language
+    const btn = document.getElementById('languageSwitcher');
+    if (btn) btn.textContent = lang === 'tr' ? 'EN' : 'TR';
+
+    // Update all static DOM text
+    updateStaticText();
+
+    // Re-render all dynamic content
+    if (menuData) {
+        createCategoryNav();
+        renderMenu();
+    }
+    createFilterOptions();
+    createPriceFilters();
+}
+
+// Update static DOM elements with translated strings
+function updateStaticText() {
+    // Header tagline
+    const tagline = document.querySelector('.header .tagline');
+    if (tagline) tagline.textContent = getTranslation('header.tagline');
+
+    // Filter toggle button text
+    const filterText = document.querySelector('#filterToggleBtn .filter-text');
+    if (filterText) filterText.textContent = getTranslation('filters.toggleBtn');
+
+    // Filter drawer header
+    const drawerTitle = document.querySelector('.filter-drawer-header h3');
+    if (drawerTitle) drawerTitle.textContent = getTranslation('filters.title');
+
+    // Accordion toggle labels
+    const proteinToggle = document.querySelector('#proteinToggle span:first-child');
+    if (proteinToggle) proteinToggle.textContent = getTranslation('filters.protein');
+
+    const carbToggle = document.querySelector('#carbToggle span:first-child');
+    if (carbToggle) carbToggle.textContent = getTranslation('filters.carb');
+
+    const allergenToggle = document.querySelector('#allergenToggle span:first-child');
+    if (allergenToggle) allergenToggle.textContent = getTranslation('filters.allergen');
+
+    // Price range section title
+    const priceTitle = document.querySelector('.filter-section-title');
+    if (priceTitle) priceTitle.textContent = getTranslation('filters.priceRange');
+
+    // Allergen note
+    const allergenNote = document.querySelector('.allergen-note');
+    if (allergenNote) allergenNote.textContent = getTranslation('filters.allergenNote');
+
+    // Footer buttons
+    const clearBtn = document.getElementById('filterClearBtn');
+    if (clearBtn) clearBtn.textContent = getTranslation('buttons.clear');
+
+    const applyBtn = document.getElementById('filterApplyBtn');
+    if (applyBtn) applyBtn.textContent = getTranslation('buttons.apply');
+
+    // Warning banner
+    const warningText = document.querySelector('.warning-text');
+    if (warningText) {
+        warningText.innerHTML = `<strong>${getTranslation('warning.important')}</strong> ${getTranslation('warning.celiac')}`;
+    }
+
+    // Footer
+    const footerMain = document.querySelector('.footer p:first-child');
+    if (footerMain) footerMain.textContent = getTranslation('footer.text');
+
+    // Scroll-to-top aria-label
+    const scrollBtn = document.getElementById('scrollToTop');
+    if (scrollBtn) scrollBtn.setAttribute('aria-label', getTranslation('scrollToTop'));
+
+    // Modal close aria-label
+    const modalClose = document.getElementById('modalClose');
+    if (modalClose) modalClose.setAttribute('aria-label', getTranslation('modalClose'));
+}
+
+const activeFilters = {
+    protein: [],
+    carb: [],
+    allergens: [],
+    price: 'all'
+};
+
+/* ============================================
+   MANUAL FILTER GROUPS
+   ============================================ */
+
+const FILTER_GROUPS = {
+    protein: [
+        { id: 'tavuk', name: 'Tavuk', icon: '🍗' },
+        { id: 'et', name: 'Et', icon: '🥩' },
+        { id: 'balik', name: 'Balık', icon: '🐟' },
+        { id: 'yumurta', name: 'Yumurta', icon: '🥚' },
+        { id: 'tofu', name: 'Tofu', icon: '🟨' },
+        { id: 'peynir', name: 'Peynir', icon: '🧀' }
+    ],
+    carb: [
+        { id: 'pirinc-cesitleri', name: 'Pirinç Çeşitleri', icon: '🍚' },
+        { id: 'makarna-noodle', name: 'Makarna/Noodle', icon: '🍝' },
+        { id: 'kuskus', name: 'Kuskus', icon: '🌾' },
+        { id: 'karabuday', name: 'Karabuğday', icon: '🌾' },
+        { id: 'kinoa', name: 'Kinoa', icon: '🌾' },
+        { id: 'baklagil', name: 'Baklagil', icon: '🫘' },
+        { id: 'ekmek-cesitleri', name: 'Ekmek Çeşitleri', icon: '🍞' },
+        { id: 'lavas', name: 'Lavaş', icon: '🌯' }
+    ],
+    allergens: [
+        { id: 'gluten', name: 'Gluten', icon: '🌾' },
+        { id: 'sut', name: 'Süt / Laktoz', icon: '🥛' },
+        { id: 'yumurta-allergen', name: 'Yumurta', icon: '🥚' },
+        { id: 'yer-fistigi', name: 'Yer Fıstığı', icon: '🥜' },
+        { id: 'susam', name: 'Susam', icon: '🌿' },
+        { id: 'bal', name: 'Bal', icon: '🍯' }
+    ]
+};
 
 /* ============================================
    Category Warning (Çölyak Uyarısı)
@@ -89,7 +211,7 @@ function buildMenuData(data) {
     if (featuredItems.length > 0) {
         const featuredCategory = {
             id: 'en-sevilenler',
-            name: 'En Sevilenler',
+            name: getTranslation('categories.en-sevilenler', 'En Sevilenler'),
             icon: '🌟',
             items: featuredItems
         };
@@ -100,12 +222,25 @@ function buildMenuData(data) {
 }
 
 // Initialize the application
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', async () => {
+    await loadTranslations();
+
+    // Apply saved language on first load
+    const langBtn = document.getElementById('languageSwitcher');
+    if (langBtn) {
+        langBtn.textContent = currentLanguage === 'tr' ? 'EN' : 'TR';
+        langBtn.addEventListener('click', () => {
+            setLanguage(currentLanguage === 'tr' ? 'en' : 'tr');
+        });
+    }
+
+    updateStaticText();
     loadMenuData();
     setupScrollToTop();
     initCategoryScroll();
     initImageModal();
     initializeFilters();
+    initSquirrel();
 });
 
 // Load menu data from JSON file
@@ -135,6 +270,9 @@ function initializeMenu() {
     if (headerTitle) {
         headerTitle.textContent = `🌿 ${menuData.cafeName}`;
     }
+
+    // Update page title and mode indicator based on order mode
+    initOrderMode();
     
     // Create category navigation
     createCategoryNav();
@@ -146,22 +284,32 @@ function initializeMenu() {
     setupCategoryFiltering();
 }
 
+// Apply order-mode-specific UI updates (title only)
+function initOrderMode() {
+    const cafeName = (menuData && menuData.cafeName) ? menuData.cafeName : 'Sade Lezzetler';
+
+    // Update browser tab title
+    document.title = `${cafeName} Menü - ${orderMode === 'online' ? 'Online Siparişler' : 'Restoran'}`;
+}
+
 // Create category navigation buttons
 function createCategoryNav() {
     const nav = document.getElementById('categoryNav');
     if (!nav) return;
-    
+
     nav.innerHTML = '';
-    
+
     const featuredCategory = menuData.categories.find(cat => cat.id === 'en-sevilenler');
     if (featuredCategory) {
-        const btn = createCategoryButton(featuredCategory.id, featuredCategory.name, featuredCategory.icon);
+        const translatedName = getTranslation(`categories.${featuredCategory.id}`, featuredCategory.name);
+        const btn = createCategoryButton(featuredCategory.id, translatedName, featuredCategory.icon);
         nav.appendChild(btn);
     }
-    
+
     menuData.categories.forEach(category => {
         if (category.id !== 'en-sevilenler') {
-            const btn = createCategoryButton(category.id, category.name, category.icon);
+            const translatedName = getTranslation(`categories.${category.id}`, category.name);
+            const btn = createCategoryButton(category.id, translatedName, category.icon);
             nav.appendChild(btn);
         }
     });
@@ -235,10 +383,13 @@ function renderMenu() {
     }
 
     // STEP 2: Apply ingredient and price filters to the selected categories
-    if (activeIngredients.length > 0 || activePriceRange !== 'all') {
+    const filtersActive = activeFilters.protein.length > 0 || activeFilters.carb.length > 0 ||
+                          activeFilters.allergens.length > 0 || activeFilters.price !== 'all';
+
+    if (filtersActive) {
         categoriesToRender = categoriesToRender.map(category => {
             const filteredItems = category.items.filter(item => {
-                return itemMatchesIngredients(item) && itemMatchesPrice(item);
+                return itemMatchesFilters(item);
             });
             return { ...category, items: filteredItems };
         }).filter(category => category.items.length > 0);
@@ -252,26 +403,29 @@ function renderMenu() {
 
     // Show "no results" message if needed
     if (container.children.length === 0) {
-        const filterActive = activeIngredients.length > 0 || activePriceRange !== 'all';
-        const categoryName = currentFilter === 'all' ? 'menüde' :
-            (menuData.categories.find(c => c.id === currentFilter)?.name || 'kategoride');
+        const filterActive = activeFilters.protein.length > 0 || activeFilters.carb.length > 0 ||
+                             activeFilters.allergens.length > 0 || activeFilters.price !== 'all';
+        const categoryName = currentFilter === 'all'
+            ? getTranslation('menu.menuIn', 'menüde')
+            : (getTranslation(`categories.${currentFilter}`, menuData.categories.find(c => c.id === currentFilter)?.name || ''));
+
+        const noResultsMsg = filterActive
+            ? getTranslation('menu.noResultsFiltered', '').replace('{category}', categoryName)
+            : getTranslation('menu.noResultsCategory', '');
 
         container.innerHTML = `
             <div class="no-results">
                 <div class="no-results-icon">🔍</div>
-                <h3>Sonuç Bulunamadı</h3>
-                <p>${filterActive ?
-                    `Bu ${categoryName} seçtiğiniz filtrelere uygun ürün bulunamadı.` :
-                    'Bu kategoride ürün bulunamadı.'
-                }</p>
+                <h3>${getTranslation('menu.noResults')}</h3>
+                <p>${noResultsMsg}</p>
                 ${filterActive ? `
                     <button onclick="clearContentFilters()" class="filter-btn-secondary" style="margin: 1rem 0.5rem 0 0; padding: 0.75rem 1.5rem;">
-                        🔄 Filtreleri Temizle
+                        ${getTranslation('buttons.clearFilters')}
                     </button>
                 ` : ''}
                 ${currentFilter !== 'all' ? `
                     <button onclick="clearCategoryFilter()" class="filter-btn-primary" style="margin-top: 1rem; padding: 0.75rem 1.5rem;">
-                        📋 Tüm Kategorileri Göster
+                        ${getTranslation('buttons.showAll')}
                     </button>
                 ` : ''}
             </div>`;
@@ -287,7 +441,8 @@ function createCategorySection(category) {
     // Category title
     const title = document.createElement('h2');
     title.className = 'category-title';
-    title.innerHTML = `<span class="category-icon">${category.icon}</span><span>${category.name}</span>`;
+    const translatedCategoryName = getTranslation(`categories.${category.id}`, category.name);
+    title.innerHTML = `<span class="category-icon">${category.icon}</span><span>${translatedCategoryName}</span>`;
     section.appendChild(title);
     
     // Menu grid
@@ -313,8 +468,8 @@ function createMenuItem(item) {
     if (item.featured) {
         const badge = document.createElement('span');
         badge.className = 'featured-badge';
-        badge.setAttribute('aria-label', 'En Sevilen Ürün');
-        badge.textContent = 'En Sevilen';
+        badge.setAttribute('aria-label', getTranslation('menu.featured', 'En Sevilen Ürün'));
+        badge.textContent = getTranslation('menu.featured', 'En Sevilen');
         card.appendChild(badge);
     }
 
@@ -345,7 +500,7 @@ function createMenuItem(item) {
     // Make image clickable - open in modal
     img.addEventListener('click', function(e) {
         e.stopPropagation(); // Prevent card click if any
-        openImageModal(this.src, item.name);
+        openImageModal(this.src, item.name, item);
     });
 
     card.appendChild(img);
@@ -360,21 +515,22 @@ function createMenuItem(item) {
     
     const name = document.createElement('h3');
     name.className = 'menu-item-name';
-    name.textContent = item.name;
+    name.textContent = getTranslation(`items.${item.id}.name`, item.name);
     
     const price = document.createElement('div');
     price.className = 'menu-item-price';
-    price.textContent = `₺${item.price}`;
+    price.textContent = `₺${getPrice(item)}`;
     
     header.appendChild(name);
     header.appendChild(price);
     content.appendChild(header);
     
     // Description
-    if (item.description) {
+    const translatedDescription = getTranslation(`items.${item.id}.description`, item.description || '');
+    if (translatedDescription) {
         const description = document.createElement('p');
         description.className = 'menu-item-description';
-        description.textContent = item.description;
+        description.textContent = translatedDescription;
         content.appendChild(description);
     }
 
@@ -402,7 +558,7 @@ function renderBadges(badges) {
     };
 
     return badges.map(badge =>
-        `<span class="badge badge-${badge}">${badgeIcons[badge] || ''} ${badge}</span>`
+        `<span class="badge badge-${badge}">${badgeIcons[badge] || ''} ${getTranslation('badges.' + badge, badge)}</span>`
     ).join('');
 }
 
@@ -419,7 +575,7 @@ function showLoading() {
     const container = document.getElementById('menuContainer');
     if (!container) return;
     
-    container.innerHTML = '<div class="loading">Menü yükleniyor</div>';
+    container.innerHTML = `<div class="loading">${getTranslation('menu.loading', 'Menü yükleniyor')}</div>`;
 }
 
 // Setup scroll-to-top button
@@ -482,11 +638,21 @@ function initCategoryScroll() {
    IMAGE MODAL FUNCTIONS
    ============================================ */
 
+// Convert allergen IDs to translated display names
+function getAllergenNames(allergenIds) {
+    if (!allergenIds || allergenIds.length === 0) return [];
+    return allergenIds.map(id => {
+        const match = FILTER_GROUPS.allergens.find(a => a.id === id);
+        return match ? getTranslation(`filterOptions.allergens.${id}`, match.name) : id;
+    });
+}
+
 // Open image modal
-function openImageModal(imageSrc, caption) {
+function openImageModal(imageSrc, caption, item) {
     const modal = document.getElementById('imageModal');
     const modalImg = document.getElementById('modalImage');
     const modalCaption = document.getElementById('modalCaption');
+    const modalAllergens = document.getElementById('modalAllergens');
 
     if (!modal || !modalImg || !modalCaption) return;
 
@@ -494,6 +660,21 @@ function openImageModal(imageSrc, caption) {
     modalImg.src = imageSrc;
     modalImg.alt = caption;
     modalCaption.textContent = caption;
+
+    // Display allergen information
+    if (modalAllergens) {
+        const allergenIds = item && item.categories && item.categories.allergens
+            ? item.categories.allergens
+            : [];
+        const names = getAllergenNames(allergenIds);
+        if (names.length > 0) {
+            modalAllergens.textContent = getTranslation('modal.allergens', '⚠️ Allergens') + ': ' + names.join(', ');
+            modalAllergens.className = 'modal-allergens modal-allergens--has-allergens';
+        } else {
+            modalAllergens.textContent = getTranslation('modal.noAllergens', '✅ No allergens');
+            modalAllergens.className = 'modal-allergens modal-allergens--safe';
+        }
+    }
 
     // Show modal
     modal.classList.add('active');
@@ -548,59 +729,55 @@ document.addEventListener('keydown', function(e) {
 });
 
 /* ============================================
-   SMART FILTER SYSTEM
+   MANUAL FILTER SYSTEM
    ============================================ */
 
-// Auto-detect ingredients from item name/description
-function autoExtractIngredients(item) {
-    const desc = (item.description || '').toLowerCase();
-    const name = item.name.toLowerCase();
-    const text = desc + ' ' + name;
+// Check if an item matches all active filters
+function itemMatchesFilters(item) {
+    const cats = item.categories || { protein: [], carb: [], allergens: [] };
 
-    const foundIngredients = [];
-
-    // Word-boundary check that handles Turkish characters
-    function containsWord(haystack, needle) {
-        const escaped = needle.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-        return new RegExp('(^|[\\s,;.()])' + escaped + '($|[\\s,;.()/])', 'i').test(haystack);
+    // Price filter
+    if (activeFilters.price !== 'all') {
+        const priceRanges = {
+            '0-300':   { min: 0,   max: 300 },
+            '300-450': { min: 300, max: 450 },
+            '450-600': { min: 450, max: 600 },
+            '600+':    { min: 600, max: Infinity }
+        };
+        const range = priceRanges[activeFilters.price];
+        if (range) {
+        const price = Number(getPrice(item)) || 0;
+            if (price < range.min || price >= range.max) return false;
+        }
     }
 
-    SMART_INGREDIENTS.forEach(ingredient => {
-        if (ingredient.includes) {
-            if (ingredient.includes.some(keyword => containsWord(text, keyword.toLowerCase()))) {
-                foundIngredients.push(ingredient.id);
-            }
-        } else {
-            if (containsWord(text, ingredient.name.toLowerCase())) {
-                foundIngredients.push(ingredient.id);
-            }
-        }
-    });
+    // Protein filter: AND logic — item must contain ALL selected proteins
+    if (activeFilters.protein.length > 0) {
+        const hasAllProteins = activeFilters.protein.every(p => cats.protein.includes(p));
+        if (!hasAllProteins) return false;
+    }
 
-    return [...new Set(foundIngredients)];
-}
+    // Carb filter: AND logic — item must contain ALL selected carbs
+    if (activeFilters.carb.length > 0) {
+        const hasAllCarbs = activeFilters.carb.every(c => cats.carb.includes(c));
+        if (!hasAllCarbs) return false;
+    }
 
-// Check if item matches any selected ingredient filter (OR logic)
-function itemMatchesIngredients(item) {
-    if (activeIngredients.length === 0) return true;
-    const itemIngredients = autoExtractIngredients(item);
-    return activeIngredients.some(id => itemIngredients.includes(id));
-}
+    // Allergen filter: NOT logic — exclude items containing any selected allergen
+    if (activeFilters.allergens.length > 0) {
+        const hasAllergen = activeFilters.allergens.some(a => cats.allergens.includes(a));
+        if (hasAllergen) return false;
+    }
 
-// Check if item price falls within selected range
-function itemMatchesPrice(item) {
-    if (activePriceRange === 'all') return true;
-    const range = PRICE_RANGES.find(r => r.id === activePriceRange);
-    if (!range) return true;
-    const price = Number(item.price) || 0;
-    return price >= range.min && price < range.max;
+    return true;
 }
 
 // Update badge showing number of active filters
 function updateFilterCount() {
     const badge = document.getElementById('filterCount');
     if (!badge) return;
-    const count = activeIngredients.length + (activePriceRange !== 'all' ? 1 : 0);
+    const count = activeFilters.protein.length + activeFilters.carb.length +
+                  activeFilters.allergens.length + (activeFilters.price !== 'all' ? 1 : 0);
     if (count > 0) {
         badge.textContent = count;
         badge.style.display = 'flex';
@@ -611,12 +788,12 @@ function updateFilterCount() {
 
 // Apply filters and re-render menu
 function applyFilters() {
-    // When filters are applied, reset category to "all" so it searches entire menu
-    if (activeIngredients.length > 0 || activePriceRange !== 'all') {
+    const filtersActive = activeFilters.protein.length > 0 || activeFilters.carb.length > 0 ||
+                          activeFilters.allergens.length > 0 || activeFilters.price !== 'all';
+    if (filtersActive) {
         currentFilter = 'all';
         activateFirstCategoryButton();
     }
-
     updateFilterCount();
     renderMenu();
     closeFilterDrawer();
@@ -637,9 +814,11 @@ function activateFirstCategoryButton() {
 
 // Clear only content/price filters (keep category selection)
 function clearContentFilters() {
-    activeIngredients = [];
-    activePriceRange = 'all';
-    createIngredientFilters();
+    activeFilters.protein = [];
+    activeFilters.carb = [];
+    activeFilters.allergens = [];
+    activeFilters.price = 'all';
+    createFilterOptions();
     createPriceFilters();
     updateFilterCount();
     renderMenu();
@@ -649,18 +828,6 @@ function clearContentFilters() {
 function clearCategoryFilter() {
     currentFilter = 'all';
     activateFirstCategoryButton();
-    renderMenu();
-}
-
-// Clear ALL filters (category + content + price)
-function clearAllFilters() {
-    currentFilter = 'all';
-    activateFirstCategoryButton();
-    activeIngredients = [];
-    activePriceRange = 'all';
-    createIngredientFilters();
-    createPriceFilters();
-    updateFilterCount();
     renderMenu();
 }
 
@@ -682,34 +849,43 @@ function closeFilterDrawer() {
     }
 }
 
-// Generate ingredient checkboxes grouped by category
-function createIngredientFilters() {
-    const categories = ['protein', 'dairy', 'carb', 'veggie', 'sauce', 'special'];
-    categories.forEach(cat => {
-        const container = document.querySelector(`.filter-group-items[data-group="${cat}"]`);
+// Generate checkboxes for protein, carb, and allergen filter groups
+function createFilterOptions() {
+    const groups = ['protein', 'carb', 'allergens'];
+    const containerIds = { protein: 'proteinOptions', carb: 'carbOptions', allergens: 'allergenOptions' };
+
+    groups.forEach(group => {
+        const container = document.getElementById(containerIds[group]);
         if (!container) return;
         container.innerHTML = '';
-        SMART_INGREDIENTS.filter(ing => ing.category === cat).forEach(ingredient => {
+        FILTER_GROUPS[group].forEach(option => {
+            const translatedName = getTranslation(`filterOptions.${group}.${option.id}`, option.name);
             const label = document.createElement('label');
-            label.className = 'filter-item' + (activeIngredients.includes(ingredient.id) ? ' checked' : '');
+            label.className = 'filter-option' + (activeFilters[group].includes(option.id) ? ' checked' : '');
             label.innerHTML = `
-                <input type="checkbox" value="${ingredient.id}" ${activeIngredients.includes(ingredient.id) ? 'checked' : ''}>
-                <span>${ingredient.icon} ${ingredient.name}</span>`;
+                <input type="checkbox" value="${option.id}" ${activeFilters[group].includes(option.id) ? 'checked' : ''}>
+                <span>${option.icon} ${translatedName}</span>`;
             const checkbox = label.querySelector('input');
             checkbox.addEventListener('change', () => {
                 if (checkbox.checked) {
-                    if (!activeIngredients.includes(ingredient.id)) {
-                        activeIngredients.push(ingredient.id);
+                    if (!activeFilters[group].includes(option.id)) {
+                        activeFilters[group].push(option.id);
                     }
                     label.classList.add('checked');
                 } else {
-                    activeIngredients = activeIngredients.filter(id => id !== ingredient.id);
+                    activeFilters[group] = activeFilters[group].filter(id => id !== option.id);
                     label.classList.remove('checked');
                 }
                 updateFilterCount();
             });
             container.appendChild(label);
         });
+        if (group === 'allergens') {
+            const note = document.createElement('p');
+            note.className = 'allergen-note';
+            note.textContent = getTranslation('filters.allergenNote');
+            container.appendChild(note);
+        }
     });
 }
 
@@ -718,16 +894,17 @@ function createPriceFilters() {
     const container = document.getElementById('priceFilters');
     if (!container) return;
     container.innerHTML = '';
-    PRICE_RANGES.forEach(range => {
+    const priceOptionIds = ['all', '0-300', '300-450', '450-600', '600+'];
+    priceOptionIds.forEach(id => {
         const label = document.createElement('label');
-        label.className = 'price-filter-item' + (activePriceRange === range.id ? ' checked' : '');
+        label.className = 'price-option' + (activeFilters.price === id ? ' checked' : '');
         label.innerHTML = `
-            <input type="radio" name="priceRange" value="${range.id}" ${activePriceRange === range.id ? 'checked' : ''}>
-            <span>${range.icon} ${range.name}</span>`;
+            <input type="radio" name="priceRange" value="${id}" ${activeFilters.price === id ? 'checked' : ''}>
+            <span>${getTranslation(`priceOptions.${id}`, id)}</span>`;
         const radio = label.querySelector('input');
         radio.addEventListener('change', () => {
-            activePriceRange = range.id;
-            container.querySelectorAll('.price-filter-item').forEach(el => el.classList.remove('checked'));
+            activeFilters.price = id;
+            container.querySelectorAll('.price-option').forEach(el => el.classList.remove('checked'));
             label.classList.add('checked');
             updateFilterCount();
         });
@@ -770,19 +947,23 @@ function setupFilterEvents() {
         });
     }
 
-    // Collapsible group toggles
-    document.querySelectorAll('.filter-group-toggle').forEach(btn => {
+    // Accordion toggles for each filter category
+    const accordionGroups = [
+        { toggleId: 'proteinToggle',  optionsId: 'proteinOptions' },
+        { toggleId: 'carbToggle',     optionsId: 'carbOptions' },
+        { toggleId: 'allergenToggle', optionsId: 'allergenOptions' }
+    ];
+    accordionGroups.forEach(({ toggleId, optionsId }) => {
+        const btn = document.getElementById(toggleId);
+        const container = document.getElementById(optionsId);
+        if (!btn || !container) return;
         btn.addEventListener('click', () => {
-            const group = btn.dataset.group;
-            const items = document.querySelector(`.filter-group-items[data-group="${group}"]`);
-            if (!items) return;
-            const isExpanded = btn.classList.contains('expanded');
-            if (isExpanded) {
-                btn.classList.remove('expanded');
-                items.style.display = 'none';
-            } else {
-                btn.classList.add('expanded');
-                items.style.display = 'flex';
+            const isOpen = container.classList.contains('open');
+            container.classList.toggle('open', !isOpen);
+            const icon = btn.querySelector('.toggle-icon');
+            if (icon) {
+                icon.classList.toggle('expanded', !isOpen);
+                icon.textContent = isOpen ? '▶' : '▼';
             }
         });
     });
@@ -790,7 +971,36 @@ function setupFilterEvents() {
 
 // Initialize the entire filter system
 function initializeFilters() {
-    createIngredientFilters();
+    createFilterOptions();
     createPriceFilters();
     setupFilterEvents();
+}
+
+/* =============================================
+   SQUIRREL ANIMATION
+   ============================================= */
+
+function initSquirrel() {
+    const squirrel = document.getElementById('squirrelContainer');
+    if (!squirrel) return;
+
+    // Slide up
+    squirrel.classList.add('squirrel-enter');
+
+    // Switch to idle bobbing after entrance completes
+    setTimeout(() => {
+        squirrel.classList.remove('squirrel-enter');
+        squirrel.classList.add('squirrel-idle');
+    }, 500);
+
+    // Begin exit animation at 4.5 s
+    setTimeout(() => {
+        squirrel.classList.remove('squirrel-idle');
+        squirrel.classList.add('squirrel-exit');
+    }, 4500);
+
+    // Remove from DOM after full 5 s cycle
+    setTimeout(() => {
+        squirrel.remove();
+    }, 5000);
 }
