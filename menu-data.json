@@ -4,12 +4,12 @@
     {
       "id": "bowl",
       "name": "Bowl",
-      "icon": "??",
+      "icon": "🥗",
       "items": [
         {
           "id": 1,
-          "name": "?algaml覺 Kuskus Bowl",
-          "description": "?algaml覺 kuskus, 覺zgara kabak, tavuk sote, yo?urt, ye?il zeytin",
+          "name": "Şalgamlı Kuskus Bowl",
+          "description": "Şalgamlı kuskus, ızgara kabak, tavuk sote, yoğurt, yeşil zeytin",
           "priceOnline": "500",
           "priceRestaurant": "400",
           "featured": true,
@@ -30,7 +30,7 @@
         {
           "id": 2,
           "name": "Falafel Bowl",
-          "description": "Karabu?day salatas覺, falafel, s繹?羹?, tahin sos",
+          "description": "Karabuğday salatası, falafel, söğüş, tahin sos",
           "priceOnline": "500",
           "priceRestaurant": "400",
           "featured": false,
@@ -50,7 +50,7 @@
         {
           "id": 3,
           "name": "Fettucini Bowl",
-          "description": "Limon soslu kremal覺 makarna, ha?lanm覺? sebze, 覺zgara tavuk",
+          "description": "Limon soslu kremalı makarna, haşlanmış sebze, ızgara tavuk",
           "priceOnline": "500",
           "priceRestaurant": "400",
           "featured": true,
@@ -70,8 +70,8 @@
         },
         {
           "id": 4,
-          "name": "Kinoal覺 Hellim Bowl",
-          "description": "Kinoa salatas覺, 覺zgara hellim, avokado, kuru 羹z羹m",
+          "name": "Kinoalı Hellim Bowl",
+          "description": "Kinoa salatası, ızgara hellim, avokado, kuru üzüm",
           "priceOnline": "500",
           "priceRestaurant": "400",
           "featured": false,
@@ -90,7 +90,7 @@
         {
           "id": 5,
           "name": "Izgara Tavuk Bowl",
-          "description": "Kuru cac覺k, 覺zgara tavuk, marul, avokado, ye?il zeytin",
+          "description": "Kuru cacık, ızgara tavuk, marul, avokado, yeşil zeytin",
           "priceOnline": "500",
           "priceRestaurant": "400",
           "featured": false,
@@ -106,8 +106,8 @@
         },
         {
           "id": 6,
-          "name": "Mantarl覺 Tavuklu Bowl",
-          "description": "Makarna, kremal覺 mantarl覺 tavuk, marul, mor lahana, m覺s覺r",
+          "name": "Mantarlı Tavuklu Bowl",
+          "description": "Makarna, kremalı mantarlı tavuk, marul, mor lahana, mısır",
           "priceOnline": "500",
           "priceRestaurant": "400",
           "featured": true,
@@ -128,7 +128,7 @@
         {
           "id": 7,
           "name": "Tavuk Pilav Bowl",
-          "description": "Nohutlu pilav, ha?lanm覺? tavuk, 癟oban salata",
+          "description": "Nohutlu pilav, haşlanmış tavuk, çoban salata",
           "priceOnline": "500",
           "priceRestaurant": "400",
           "featured": false,
@@ -144,8 +144,8 @@
         },
         {
           "id": 8,
-          "name": "Thai Usul羹 Bowl",
-          "description": "SADE pilav, 覺zgara mantar, thai soslu 癟覺t覺r tavuk, salata",
+          "name": "Thai Usulü Bowl",
+          "description": "SADE pilav, ızgara mantar, thai soslu çıtır tavuk, salata",
           "priceOnline": "500",
           "priceRestaurant": "400",
           "featured": true,
@@ -165,8 +165,8 @@
         },
         {
           "id": 9,
-          "name": "K繹ri Bowl",
-          "description": "Makarna, k繹ri soslu tavuk, salata",
+          "name": "Köri Bowl",
+          "description": "Makarna, köri soslu tavuk, salata",
           "priceOnline": "500",
           "priceRestaurant": "400",
           "featured": false,
@@ -206,7 +206,7 @@
         {
           "id": 11,
           "name": "Bulgur Bowl",
-          "description": "Meyhane pilav覺, ka?arl覺 mantar, havu癟 tarator",
+          "description": "Meyhane pilavı, kaşarlı mantar, havuç tarator",
           "priceOnline": "500",
           "priceRestaurant": "400",
           "featured": false,
@@ -223,8 +223,8 @@
         },
         {
           "id": 12,
-          "name": "Mantarl覺 Kuskus Bowl",
-          "description": "Mantarl覺 peynir soslu kuskus, ha?lanm覺? sebze, 覺zgara tavuk",
+          "name": "Mantarlı Kuskus Bowl",
+          "description": "Mantarlı peynir soslu kuskus, haşlanmış sebze, ızgara tavuk",
           "priceOnline": "520",
           "priceRestaurant": "420",
           "featured": true,
@@ -245,7 +245,7 @@
         {
           "id": 13,
           "name": "Vegan Bowl",
-          "description": "Mercimek salatas覺, marul, s繹?羹?, kavrulmu? nohut, lahana tur?usu",
+          "description": "Mercimek salatası, marul, söğüş, kavrulmuş nohut, lahana turşusu",
           "priceOnline": "500",
           "priceRestaurant": "400",
           "featured": false,
@@ -259,8 +259,8 @@
         },
         {
           "id": 14,
-          "name": "K繹fte Bowl",
-          "description": "Pilav, 癟oban salata, anne k繹ftesi, patates",
+          "name": "Köfte Bowl",
+          "description": "Pilav, çoban salata, anne köftesi, patates",
           "priceOnline": "500",
           "priceRestaurant": "400",
           "featured": false,
@@ -298,8 +298,8 @@
         },
         {
           "id": 16,
-          "name": "K繹z Patl覺canl覺 Kuskus Bowl",
-          "description": "SADE soslu kuskus, 覺zgara tavuk, salata",
+          "name": "Köz Patlıcanlı Kuskus Bowl",
+          "description": "SADE soslu kuskus, ızgara tavuk, salata",
           "priceOnline": "500",
           "priceRestaurant": "400",
           "featured": false,
@@ -320,7 +320,7 @@
         {
           "id": 17,
           "name": "Pesto Bowl",
-          "description": "Pesto soslu fettucini, 覺zgara tavuk, salata",
+          "description": "Pesto soslu fettucini, ızgara tavuk, salata",
           "priceOnline": "500",
           "priceRestaurant": "400",
           "featured": false,
@@ -341,8 +341,8 @@
         },
         {
           "id": 18,
-          "name": "Spesiyal K繹fte Bowl",
-          "description": "Pilav, sebzeli dometesli k繹fte, k繹z patl覺can salatas覺",
+          "name": "Spesiyal Köfte Bowl",
+          "description": "Pilav, sebzeli dometesli köfte, köz patlıcan salatası",
           "priceOnline": "500",
           "priceRestaurant": "400",
           "featured": false,
@@ -362,7 +362,7 @@
         {
           "id": 19,
           "name": "Humus Bowl",
-          "description": "Kinoa, humus, 癟覺t覺r nohut, s繹?羹?, avokado, ye?il zeytin",
+          "description": "Kinoa, humus, çıtır nohut, söğüş, avokado, yeşil zeytin",
           "priceOnline": "500",
           "priceRestaurant": "400",
           "featured": false,
@@ -380,7 +380,7 @@
         {
           "id": 20,
           "name": "Somon Bowl",
-          "description": "Soya soslu patates, 覺zgara kabak, biber, somon",
+          "description": "Soya soslu patates, ızgara kabak, biber, somon",
           "priceOnline": "750",
           "priceRestaurant": "650",
           "featured": false,
@@ -396,8 +396,8 @@
         },
         {
           "id": 21,
-          "name": "Kremal覺 Somon",
-          "description": "Kinoa, krema soslu somon, roka, havu癟",
+          "name": "Kremalı Somon",
+          "description": "Kinoa, krema soslu somon, roka, havuç",
           "priceOnline": "750",
           "priceRestaurant": "650",
           "featured": false,
@@ -416,7 +416,7 @@
         {
           "id": 22,
           "name": "Teriyaki Soslu Somon",
-          "description": "Basmati, teriyaki soslu somon, lahana tur?usu, havu癟",
+          "description": "Basmati, teriyaki soslu somon, lahana turşusu, havuç",
           "priceOnline": "750",
           "priceRestaurant": "650",
           "featured": false,
@@ -434,8 +434,8 @@
         },
         {
           "id": 23,
-          "name": "Tand覺r Bowl",
-          "description": "Siyah pirin癟, kuzu tand覺r, guacamole sos, baharatl覺 m覺s覺r, SADE sos, m覺s覺r",
+          "name": "Tandır Bowl",
+          "description": "Siyah pirinç, kuzu tandır, guacamole sos, baharatlı mısır, SADE sos, mısır",
           "priceOnline": "750",
           "priceRestaurant": "650",
           "featured": false,
@@ -477,13 +477,13 @@
     },
     {
       "id": "ekmek-ustu",
-      "name": "Ekmek ?st羹",
-      "icon": "?左",
+      "name": "Ekmek Üstü",
+      "icon": "🥪",
       "items": [
         {
           "id": 25,
-          "name": "Avokadolu Ekmek ?st羹",
-          "description": "Ek?i mayal覺 ekmek, labneli avokado, ha?lanm覺? yumurta, s繹?羹?",
+          "name": "Avokadolu Ekmek Üstü",
+          "description": "Ekşi mayalı ekmek, labneli avokado, haşlanmış yumurta, söğüş",
           "priceOnline": "500",
           "priceRestaurant": "400",
           "featured": true,
@@ -503,8 +503,8 @@
         },
         {
           "id": 26,
-          "name": "Hellimli Ekmek ?st羹",
-          "description": "Ek?i mayal覺 ekmek, 癟覺rp覺lm覺? yumurta, 覺zgara hellim, avokado, s繹?羹?",
+          "name": "Hellimli Ekmek Üstü",
+          "description": "Ekşi mayalı ekmek, çırpılmış yumurta, ızgara hellim, avokado, söğüş",
           "priceOnline": "500",
           "priceRestaurant": "400",
           "featured": false,
@@ -525,8 +525,8 @@
         },
         {
           "id": 27,
-          "name": "Hindi F羹meli Ekmek ?st羹",
-          "description": "Ek?i mayal覺 ekmek, labne, hindi f羹me, avokado, biberli omlet, s繹?羹?",
+          "name": "Hindi Fümeli Ekmek Üstü",
+          "description": "Ekşi mayalı ekmek, labne, hindi füme, avokado, biberli omlet, söğüş",
           "priceOnline": "500",
           "priceRestaurant": "400",
           "featured": true,
@@ -547,8 +547,8 @@
         },
         {
           "id": 28,
-          "name": "Pesto Ekmek ?st羹",
-          "description": "Ek?i mayal覺 ekmek, pesto sos, ezine peynirli avokado, g繹z yumurta, ac覺 ya?, s繹?羹?",
+          "name": "Pesto Ekmek Üstü",
+          "description": "Ekşi mayalı ekmek, pesto sos, ezine peynirli avokado, göz yumurta, acı yağ, söğüş",
           "priceOnline": "500",
           "priceRestaurant": "400",
           "featured": false,
@@ -569,8 +569,8 @@
         },
         {
           "id": 29,
-          "name": "Sweet Chilli Ekmek ?st羹",
-          "description": "Ek?i mayal覺 ekmek, avokado, sweet chilli soslu hellim 覺zgara, s繹?羹?",
+          "name": "Sweet Chilli Ekmek Üstü",
+          "description": "Ekşi mayalı ekmek, avokado, sweet chilli soslu hellim ızgara, söğüş",
           "priceOnline": "500",
           "priceRestaurant": "400",
           "featured": false,
@@ -589,8 +589,8 @@
         },
         {
           "id": 30,
-          "name": "Sucuklu Ekmek ?st羹",
-          "description": "Ek?i mayal覺 ekmek, sucuklu hellimli yumurta, s繹?羹?",
+          "name": "Sucuklu Ekmek Üstü",
+          "description": "Ekşi mayalı ekmek, sucuklu hellimli yumurta, söğüş",
           "priceOnline": "500",
           "priceRestaurant": "400",
           "featured": false,
@@ -612,8 +612,8 @@
         },
         {
           "id": 31,
-          "name": "Humuslu Ekmek ?st羹",
-          "description": "Ek?i mayal覺 ekmek, humus, 癟覺t覺r nohut, past覺rma, ac覺 ya?, s繹?羹?",
+          "name": "Humuslu Ekmek Üstü",
+          "description": "Ekşi mayalı ekmek, humus, çıtır nohut, pastırma, acı yağ, söğüş",
           "priceOnline": "500",
           "priceRestaurant": "400",
           "featured": false,
@@ -632,8 +632,8 @@
         },
         {
           "id": 32,
-          "name": "Mantarl覺 Ekmek ?st羹",
-          "description": "Ek?i mayal覺 ekmek, avokado, sar覺msak kremas覺, soyal覺 mantar, s繹?羹?",
+          "name": "Mantarlı Ekmek Üstü",
+          "description": "Ekşi mayalı ekmek, avokado, sarımsak kreması, soyalı mantar, söğüş",
           "priceOnline": "500",
           "priceRestaurant": "400",
           "featured": false,
@@ -653,12 +653,12 @@
     {
       "id": "salata",
       "name": "Salata",
-      "icon": "?布",
+      "icon": "🥬",
       "items": [
         {
           "id": 33,
           "name": "Tavuklu Salata",
-          "description": "Marul, tur?u, so?an, cherry domates, yo?urt sos, 覺zgara tavuk, m覺s覺r, meksika fasulyesi",
+          "description": "Marul, turşu, soğan, cherry domates, yoğurt sos, ızgara tavuk, mısır, meksika fasulyesi",
           "priceOnline": "470",
           "priceRestaurant": "370",
           "featured": true,
@@ -675,7 +675,7 @@
         {
           "id": 34,
           "name": "Hellimli Salata",
-          "description": "Marul, ye?illik, cherry domates, avokado sos, 覺zgara hellim, kabak 癟ekirde?i",
+          "description": "Marul, yeşillik, cherry domates, avokado sos, ızgara hellim, kabak çekirdeği",
           "priceOnline": "470",
           "priceRestaurant": "370",
           "featured": false,
@@ -692,7 +692,7 @@
         {
           "id": 35,
           "name": "Falafelli Salata",
-          "description": "Marul, karabu?day, ye?illik, falafel, tahin sos, susam, cherry domates",
+          "description": "Marul, karabuğday, yeşillik, falafel, tahin sos, susam, cherry domates",
           "priceOnline": "470",
           "priceRestaurant": "370",
           "featured": false,
@@ -709,8 +709,8 @@
         },
         {
           "id": 36,
-          "name": "?覺t覺r Salata",
-          "description": "Marul, roka, tur?u, k覺rm覺z覺 so?an, domates, 癟覺t覺r tavuk, ball覺 hardal",
+          "name": "Çıtır Salata",
+          "description": "Marul, roka, turşu, kırmızı soğan, domates, çıtır tavuk, ballı hardal",
           "priceOnline": "470",
           "priceRestaurant": "370",
           "featured": false,
@@ -728,8 +728,8 @@
         },
         {
           "id": 37,
-          "name": "Ton Bal覺kl覺 Salata",
-          "description": "Marul, ye?illik, cherry domates, ton bal覺?覺",
+          "name": "Ton Balıklı Salata",
+          "description": "Marul, yeşillik, cherry domates, ton balığı",
           "priceOnline": "470",
           "priceRestaurant": "370",
           "featured": false,
@@ -744,14 +744,14 @@
       ]
     },
     {
-      "id": "c覺t覺r",
-      "name": "?覺t覺r",
-      "icon": "??",
+      "id": "cıtır",
+      "name": "Çıtır",
+      "icon": "🍗",
       "items": [
         {
           "id": 38,
-          "name": "Ac覺l覺 ?覺t覺r",
-          "description": "Cajun soslu 癟覺t覺r tavuk, patates, karamelize so?an sos, pembe sos",
+          "name": "Acılı Çıtır",
+          "description": "Cajun soslu çıtır tavuk, patates, karamelize soğan sos, pembe sos",
           "priceOnline": "470",
           "priceRestaurant": "370",
           "featured": false,
@@ -769,8 +769,8 @@
         },
         {
           "id": 39,
-          "name": "Sweet Chilli ?覺t覺r",
-          "description": "Sweet Chilli soslu 癟覺t覺r tavuk, patates, karamelize so?an sos, pembe sos",
+          "name": "Sweet Chilli Çıtır",
+          "description": "Sweet Chilli soslu çıtır tavuk, patates, karamelize soğan sos, pembe sos",
           "priceOnline": "470",
           "priceRestaurant": "370",
           "featured": false,
@@ -788,8 +788,8 @@
         },
         {
           "id": 40,
-          "name": "?覺t覺r Thai",
-          "description": "Thai soslu 癟覺t覺r tavuk, patates, k繹z biber sos, mayonez",
+          "name": "Çıtır Thai",
+          "description": "Thai soslu çıtır tavuk, patates, köz biber sos, mayonez",
           "priceOnline": "470",
           "priceRestaurant": "370",
           "featured": false,
@@ -806,8 +806,8 @@
         },
         {
           "id": 41,
-          "name": "?覺t覺r K繹ri",
-          "description": "K繹rili 癟覺t覺r tavuk, patates, k繹z biber sos, mayonez",
+          "name": "Çıtır Köri",
+          "description": "Körili çıtır tavuk, patates, köz biber sos, mayonez",
           "priceOnline": "470",
           "priceRestaurant": "370",
           "featured": false,
@@ -824,8 +824,8 @@
         },
         {
           "id": 42,
-          "name": "SADE ?覺t覺r",
-          "description": "200 gr. 癟覺t覺r tavuk, k繹z biber sos, ball覺 hardal, cajun sos, burger sos, mayonez",
+          "name": "SADE Çıtır",
+          "description": "200 gr. çıtır tavuk, köz biber sos, ballı hardal, cajun sos, burger sos, mayonez",
           "priceOnline": "500",
           "priceRestaurant": "400",
           "featured": false,
@@ -847,12 +847,12 @@
     {
       "id": "gurme-serisi",
       "name": "Gurme Serisi",
-      "icon": "?????,
+      "icon": "👩🏻‍🍳",
       "items": [
         {
           "id": 43,
-          "name": "K繹fte Burger",
-          "description": "El yap覺m覺 hamberger ekme?i, burger sos, marul, 150 gr. dana k繹fte, cheddar peyniri, karamelize so?an, mayonez, jalapeno, patates",
+          "name": "Köfte Burger",
+          "description": "El yapımı hamberger ekmeği, burger sos, marul, 150 gr. dana köfte, cheddar peyniri, karamelize soğan, mayonez, jalapeno, patates",
           "priceOnline": "600",
           "priceRestaurant": "500",
           "featured": true,
@@ -874,7 +874,7 @@
         {
           "id": 44,
           "name": "Tavuk Burger",
-          "description": "El yap覺m覺 hamburger ekme?i, marul, ac覺l覺 ball覺 hardal, 癟覺t覺r tavuk but, 癟覺t覺r ka?ar peyniri, kuru so?an, mayonez, jalapeno, patates",
+          "description": "El yapımı hamburger ekmeği, marul, acılı ballı hardal, çıtır tavuk but, çıtır kaşar peyniri, kuru soğan, mayonez, jalapeno, patates",
           "priceOnline": "650",
           "priceRestaurant": "550",
           "featured": false,
@@ -897,7 +897,7 @@
         {
           "id": 45,
           "name": "Gurme French Toast",
-          "description": "El yap覺m覺 brioche ekme?i, kuzu tand覺r, kapya biber, so?an, eski ka?ar, salata",
+          "description": "El yapımı brioche ekmeği, kuzu tandır, kapya biber, soğan, eski kaşar, salata",
           "priceOnline": "750",
           "priceRestaurant": "650",
           "featured": false,
@@ -920,13 +920,13 @@
     },
     {
       "id": "durum-burrito",
-      "name": "D羹r羹m ve Burrito",
-      "icon": "?",
+      "name": "Dürüm ve Burrito",
+      "icon": "🌯",
       "items": [
         {
           "id": 46,
-          "name": "?覺t覺r Tavuk D羹r羹m",
-          "description": "Cajun sos, 癟覺t覺r tavuk, marul, jalapeno, mayonez",
+          "name": "Çıtır Tavuk Dürüm",
+          "description": "Cajun sos, çıtır tavuk, marul, jalapeno, mayonez",
           "priceOnline": "500",
           "priceRestaurant": "400",
           "featured": true,
@@ -945,8 +945,8 @@
         },
         {
           "id": 47,
-          "name": "Tavuk D羹r羹m",
-          "description": "Mayonez, marul, tavuk, so?an, jalapone, mayonez",
+          "name": "Tavuk Dürüm",
+          "description": "Mayonez, marul, tavuk, soğan, jalapone, mayonez",
           "priceOnline": "470",
           "priceRestaurant": "370",
           "featured": false,
@@ -965,8 +965,8 @@
         },
         {
           "id": 48,
-          "name": "K繹fte D羹r羹m",
-          "description": "Anne k繹ftesi, burger sos, ka?ar peyniri, marul, karamelize so?an, mayonez, jalapeno",
+          "name": "Köfte Dürüm",
+          "description": "Anne köftesi, burger sos, kaşar peyniri, marul, karamelize soğan, mayonez, jalapeno",
           "priceOnline": "500",
           "priceRestaurant": "400",
           "featured": false,
@@ -987,7 +987,7 @@
         {
           "id": 49,
           "name": "Tavuk Burrito",
-          "description": "Basmati, labne, soya soslu marine edilmi? mantarl覺 tavuk g繹?羹s, m覺s覺r, meksika fasulyesi, jalapeno, kibrit havu癟, sar覺msakl覺 mayonez",
+          "description": "Basmati, labne, soya soslu marine edilmiş mantarlı tavuk göğüs, mısır, meksika fasulyesi, jalapeno, kibrit havuç, sarımsaklı mayonez",
           "priceOnline": "550",
           "priceRestaurant": "450",
           "featured": true,
@@ -1029,8 +1029,8 @@
         },
         {
           "id": 51,
-          "name": "K繹fte Burrito",
-          "description": "Basmati, anne k繹ftesi, k繹z biber, SADE sos, so?an, mayonez, jalapeno",
+          "name": "Köfte Burrito",
+          "description": "Basmati, anne köftesi, köz biber, SADE sos, soğan, mayonez, jalapeno",
           "priceOnline": "550",
           "priceRestaurant": "450",
           "featured": false,
@@ -1052,7 +1052,7 @@
         {
           "id": 52,
           "name": "Mantar Burrito (Vegan)",
-          "description": "Basmati, avokado sos, sar覺msak kremas覺, soya soslu mantar sote, havu癟, m覺s覺r, marul, jalapeno",
+          "description": "Basmati, avokado sos, sarımsak kreması, soya soslu mantar sote, havuç, mısır, marul, jalapeno",
           "priceOnline": "570",
           "priceRestaurant": "470",
           "featured": false,
@@ -1069,8 +1069,8 @@
         },
         {
           "id": 53,
-          "name": "Tand覺r Burrito",
-          "description": "Basmati, SADE sos, guacamole sos, kuzu tand覺r, cheddar peyniri, mayonez, jalapeno",
+          "name": "Tandır Burrito",
+          "description": "Basmati, SADE sos, guacamole sos, kuzu tandır, cheddar peyniri, mayonez, jalapeno",
           "priceOnline": "700",
           "priceRestaurant": "600",
           "featured": false,
@@ -1094,12 +1094,12 @@
     {
       "id": "french-toast",
       "name": "French Toast",
-      "icon": "??",
+      "icon": "🍞",
       "items": [
         {
           "id": 54,
-          "name": "?ilekli French Toast",
-          "description": "Brioche ekme?i, labne kremas覺, k覺rm覺z覺 meyve, bal",
+          "name": "Çilekli French Toast",
+          "description": "Brioche ekmeği, labne kreması, kırmızı meyve, bal",
           "priceOnline": "550",
           "priceRestaurant": "450",
           "featured": true,
@@ -1118,8 +1118,8 @@
         },
         {
           "id": 55,
-          "name": "Marmelatl覺 French Toast",
-          "description": "Brioche ekme?i, labne kremas覺, orman meyvesi marmelat覺, limon kabu?u, nane",
+          "name": "Marmelatlı French Toast",
+          "description": "Brioche ekmeği, labne kreması, orman meyvesi marmelatı, limon kabuğu, nane",
           "priceOnline": "550",
           "priceRestaurant": "450",
           "featured": false,
@@ -1138,7 +1138,7 @@
         {
           "id": 56,
           "name": "Muzlu French Toast",
-          "description": "Brioche ekme?i, yer f覺st覺?覺 ezmesi, karamelize muz, bal, badem",
+          "description": "Brioche ekmeği, yer fıstığı ezmesi, karamelize muz, bal, badem",
           "priceOnline": "550",
           "priceRestaurant": "450",
           "featured": false,
@@ -1158,8 +1158,8 @@
         },
         {
           "id": 57,
-          "name": "Fond羹 French Toast",
-          "description": "Brioche ekme?i, eritilmi? 癟ikolata, 癟ilek, muz",
+          "name": "Fondü French Toast",
+          "description": "Brioche ekmeği, eritilmiş çikolata, çilek, muz",
           "priceOnline": "600",
           "priceRestaurant": "500",
           "featured": false,
@@ -1177,8 +1177,8 @@
         },
         {
           "id": 58,
-          "name": "?覺t覺r French Toast",
-          "description": "Brioche ekme?i, hindi f羹meli sos, 癟覺t覺r tavuk, kuru domates",
+          "name": "Çıtır French Toast",
+          "description": "Brioche ekmeği, hindi fümeli sos, çıtır tavuk, kuru domates",
           "priceOnline": "550",
           "priceRestaurant": "450",
           "featured": false,
@@ -1200,7 +1200,7 @@
         {
           "id": 59,
           "name": "Scrambled Egg French Toast",
-          "description": "Brioche ekme?i, hindi f羹me, ka?ar peyniri, 癟覺rp覺lm覺? yumurta, s繹?羹?",
+          "description": "Brioche ekmeği, hindi füme, kaşar peyniri, çırpılmış yumurta, söğüş",
           "priceOnline": "550",
           "priceRestaurant": "450",
           "featured": false,
@@ -1224,12 +1224,12 @@
     {
       "id": "bun",
       "name": "Bun (Ban)",
-      "icon": "??",
+      "icon": "🥟",
       "items": [
         {
           "id": 60,
-          "name": "?覺t覺r Bun (3 adet)",
-          "description": "Cajun sos, marul, kuru so?an, 癟覺t覺r tavuk",
+          "name": "Çıtır Bun (3 adet)",
+          "description": "Cajun sos, marul, kuru soğan, çıtır tavuk",
           "priceOnline": "500",
           "priceRestaurant": "400",
           "featured": false,
@@ -1248,8 +1248,8 @@
         },
         {
           "id": 61,
-          "name": "K繹fte Bun (3 adet)",
-          "description": "Burger sos, marul, domates, anne k繹ftesi",
+          "name": "Köfte Bun (3 adet)",
+          "description": "Burger sos, marul, domates, anne köftesi",
           "priceOnline": "570",
           "priceRestaurant": "470",
           "featured": false,
@@ -1269,7 +1269,7 @@
         {
           "id": 62,
           "name": "Sote Bun (3 adet)",
-          "description": "Sweet chilli sos, ka?ar peyniri, jalapeno, tavuk sote",
+          "description": "Sweet chilli sos, kaşar peyniri, jalapeno, tavuk sote",
           "priceOnline": "500",
           "priceRestaurant": "400",
           "featured": false,
@@ -1309,7 +1309,7 @@
         },
         {
           "id": 64,
-          "name": "Tavuklu So?uk Bun (3 adet)",
+          "name": "Tavuklu Soğuk Bun (3 adet)",
           "description": "Tavuklu meze, marul",
           "priceOnline": "500",
           "priceRestaurant": "400",
@@ -1331,7 +1331,7 @@
         {
           "id": 65,
           "name": "Tofu Bun (3 adet) (Vegan)",
-          "description": "SADE tofu, havu癟, salatal覺k, lahana tur?usu",
+          "description": "SADE tofu, havuç, salatalık, lahana turşusu",
           "priceOnline": "500",
           "priceRestaurant": "400",
           "featured": false,
@@ -1351,7 +1351,7 @@
         {
           "id": 66,
           "name": "Teriyaki Bun (3 adet)",
-          "description": "Teriyaki soslu tavuk, so?an, havu癟",
+          "description": "Teriyaki soslu tavuk, soğan, havuç",
           "priceOnline": "500",
           "priceRestaurant": "400",
           "featured": false,
@@ -1370,8 +1370,8 @@
         },
         {
           "id": 67,
-          "name": "Tand覺r Bun (3 adet)",
-          "description": "Kuzu tand覺r, cheddar peyniri, kibrit patates",
+          "name": "Tandır Bun (3 adet)",
+          "description": "Kuzu tandır, cheddar peyniri, kibrit patates",
           "priceOnline": "620",
           "priceRestaurant": "520",
           "featured": false,
@@ -1412,12 +1412,12 @@
     {
       "id": "tost",
       "name": "Tost",
-      "icon": "??",
+      "icon": "🍞",
       "items": [
         {
           "id": 69,
           "name": "Peynirli Tost",
-          "description": "Cheddar peyniri, ka?ar peyniri, s繹?羹?",
+          "description": "Cheddar peyniri, kaşar peyniri, söğüş",
           "priceOnline": "500",
           "priceRestaurant": "400",
           "featured": false,
@@ -1437,7 +1437,7 @@
         {
           "id": 70,
           "name": "SADE'nin Tostu",
-          "description": "Kuru domates sos, pesto sos, ka?ar peyniri, s繹?羹?",
+          "description": "Kuru domates sos, pesto sos, kaşar peyniri, söğüş",
           "priceOnline": "500",
           "priceRestaurant": "400",
           "featured": false,
@@ -1458,7 +1458,7 @@
         {
           "id": 71,
           "name": "Anne Tostu",
-          "description": "Beyaz peynir, ka?ar peyniri, biber, domates, s繹?羹?",
+          "description": "Beyaz peynir, kaşar peyniri, biber, domates, söğüş",
           "priceOnline": "500",
           "priceRestaurant": "400",
           "featured": false,
@@ -1478,7 +1478,7 @@
         {
           "id": 72,
           "name": "Sucuklu Tost",
-          "description": "Sucuk, ka?ar peyniri, s繹?羹?",
+          "description": "Sucuk, kaşar peyniri, söğüş",
           "priceOnline": "550",
           "priceRestaurant": "450",
           "featured": false,
@@ -1498,8 +1498,8 @@
         },
         {
           "id": 73,
-          "name": "Tand覺r Tost",
-          "description": "Kuzu tand覺r, eski ka?ar",
+          "name": "Tandır Tost",
+          "description": "Kuzu tandır, eski kaşar",
           "priceOnline": "600",
           "priceRestaurant": "500",
           "featured": false,
@@ -1521,13 +1521,13 @@
     },
     {
       "id": "sandvic",
-      "name": "Sandvi癟",
-      "icon": "?左",
+      "name": "Sandviç",
+      "icon": "🥪",
       "items": [
         {
           "id": 74,
-          "name": "Sebzeli Sandvi癟",
-          "description": "Foccacia ekme?i, domates sos, roka, 覺zgara sebzeler, ezine peyniri",
+          "name": "Sebzeli Sandviç",
+          "description": "Foccacia ekmeği, domates sos, roka, ızgara sebzeler, ezine peyniri",
           "priceOnline": "500",
           "priceRestaurant": "400",
           "featured": false,
@@ -1546,8 +1546,8 @@
         },
         {
           "id": 75,
-          "name": "Tavuklu So?uk Sandvi癟",
-          "description": "Foccaccia ekme?i, tavuklu meze, so?an tur?usu, marul",
+          "name": "Tavuklu Soğuk Sandviç",
+          "description": "Foccaccia ekmeği, tavuklu meze, soğan turşusu, marul",
           "priceOnline": "500",
           "priceRestaurant": "400",
           "featured": false,
@@ -1570,12 +1570,12 @@
     {
       "id": "makarna",
       "name": "Makarna & Noodle",
-      "icon": "??",
+      "icon": "🍝",
       "items": [
         {
           "id": 76,
-          "name": "Kremal覺 Mantarl覺 Makarna",
-          "description": "Fettucini, kuru so?an, mantar",
+          "name": "Kremalı Mantarlı Makarna",
+          "description": "Fettucini, kuru soğan, mantar",
           "priceOnline": "500",
           "priceRestaurant": "400",
           "featured": false,
@@ -1594,7 +1594,7 @@
         {
           "id": 77,
           "name": "Tavuklu Fettucini",
-          "description": "Tavuk, krema, k繹y peyniri, 癟覺t覺r so?an",
+          "description": "Tavuk, krema, köy peyniri, çıtır soğan",
           "priceOnline": "500",
           "priceRestaurant": "400",
           "featured": false,
@@ -1615,7 +1615,7 @@
         {
           "id": 78,
           "name": "Peynir Soslu Penne",
-          "description": "4 癟e?it peynir, muskat",
+          "description": "4 çeşit peynir, muskat",
           "priceOnline": "500",
           "priceRestaurant": "400",
           "featured": false,
@@ -1636,7 +1636,7 @@
         {
           "id": 79,
           "name": "Cheddar Soslu Makarna",
-          "description": "?覺t覺r tavuklu",
+          "description": "Çıtır tavuklu",
           "priceOnline": "600",
           "priceRestaurant": "500",
           "featured": false,
@@ -1658,7 +1658,7 @@
         {
           "id": 80,
           "name": "Tavuklu Noodle",
-          "description": "Tavuk, kabak, havu癟, biber, taze so?an",
+          "description": "Tavuk, kabak, havuç, biber, taze soğan",
           "priceOnline": "500",
           "priceRestaurant": "400",
           "featured": false,
@@ -1679,7 +1679,7 @@
         {
           "id": 81,
           "name": "Sebzeli Noodle",
-          "description": "Mantar, kabak, havu癟, biber, taze so?an",
+          "description": "Mantar, kabak, havuç, biber, taze soğan",
           "priceOnline": "500",
           "priceRestaurant": "400",
           "featured": false,
@@ -1700,12 +1700,12 @@
     {
       "id": "taco",
       "name": "Taco",
-      "icon": "?",
+      "icon": "🌮",
       "items": [
         {
           "id": 82,
           "name": "Tavuklu Labne Soslu Taco (3 adet)",
-          "description": "Labne sos, tavuk, meksika fasulyesi, jalapeno, 癟覺t覺r so?an",
+          "description": "Labne sos, tavuk, meksika fasulyesi, jalapeno, çıtır soğan",
           "priceOnline": "500",
           "priceRestaurant": "400",
           "featured": true,
@@ -1746,12 +1746,12 @@
     {
       "id": "glutensiz-vegan",
       "name": "Glutensiz / Vegan",
-      "icon": "?",
+      "icon": "🌱",
       "items": [
         {
           "id": 84,
           "name": "Glutensiz SADE Tofu Bowl",
-          "description": "Zerde癟all覺 basmati, SADE sos, tofu, salata, avokado",
+          "description": "Zerdeçallı basmati, SADE sos, tofu, salata, avokado",
           "priceOnline": "500",
           "priceRestaurant": "400",
           "featured": false,
@@ -1769,8 +1769,8 @@
         },
         {
           "id": 85,
-          "name": "Glutensiz Vegan Thai Usul羹 Bowl",
-          "description": "Basmati, thai soslu tofu, 覺zgara mantar, salata",
+          "name": "Glutensiz Vegan Thai Usulü Bowl",
+          "description": "Basmati, thai soslu tofu, ızgara mantar, salata",
           "priceOnline": "500",
           "priceRestaurant": "400",
           "featured": false,
@@ -1788,8 +1788,8 @@
         },
         {
           "id": 86,
-          "name": "Glutensiz ?覺t覺r Tofu Salata",
-          "description": "Marul, roka, cherry domates, salatal覺k, m覺s覺r, taze so?an, avokado, 癟覺t覺r tofu, b繹?羹rtlen sos",
+          "name": "Glutensiz Çıtır Tofu Salata",
+          "description": "Marul, roka, cherry domates, salatalık, mısır, taze soğan, avokado, çıtır tofu, böğürtlen sos",
           "priceOnline": "500",
           "priceRestaurant": "400",
           "featured": false,
@@ -1806,7 +1806,7 @@
         {
           "id": 87,
           "name": "Glutensiz Sweet Chilli Soslu Bowl",
-          "description": "Basmati, ha?lanm覺? sebze, sweet chilli soslu tofu",
+          "description": "Basmati, haşlanmış sebze, sweet chilli soslu tofu",
           "priceOnline": "500",
           "priceRestaurant": "400",
           "featured": false,
@@ -1822,8 +1822,8 @@
         },
         {
           "id": 88,
-          "name": "Glutensiz Pirin癟 Bowl",
-          "description": "Siyah pirin癟, humus, 癟覺t覺r nohut, teriyaki soslu tofu, salata",
+          "name": "Glutensiz Pirinç Bowl",
+          "description": "Siyah pirinç, humus, çıtır nohut, teriyaki soslu tofu, salata",
           "priceOnline": "500",
           "priceRestaurant": "400",
           "featured": false,
@@ -1841,8 +1841,8 @@
         },
         {
           "id": 129,
-          "name": "Glutensiz ?覺t覺r Bun (3 adet)",
-          "description": "Cajun sos, marul, kuru so?an, 癟覺t覺r tavuk",
+          "name": "Glutensiz Çıtır Bun (3 adet)",
+          "description": "Cajun sos, marul, kuru soğan, çıtır tavuk",
           "priceOnline": "600",
           "priceRestaurant": "500",
           "featured": false,
@@ -1861,7 +1861,7 @@
         {
           "id": 89,
           "name": "Glutensiz Tofu Bun (3 adet)",
-          "description": "SADE soslu tofu, salatal覺k, havu癟, lahana tur?usu",
+          "description": "SADE soslu tofu, salatalık, havuç, lahana turşusu",
           "priceOnline": "600",
           "priceRestaurant": "500",
           "featured": false,
@@ -1880,7 +1880,7 @@
         {
           "id": 90,
           "name": "Glutensiz Teriyaki Bun (3 adet)",
-          "description": "Teriyaki soslu tavuk, havu癟, taze so?an",
+          "description": "Teriyaki soslu tavuk, havuç, taze soğan",
           "priceOnline": "600",
           "priceRestaurant": "500",
           "featured": false,
@@ -1898,7 +1898,7 @@
         },
         {
           "id": 91,
-          "name": "Glutensiz Tavuklu So?uk Bun (3 adet)",
+          "name": "Glutensiz Tavuklu Soğuk Bun (3 adet)",
           "description": "Tavuklu meze, marul",
           "priceOnline": "600",
           "priceRestaurant": "500",
@@ -1939,7 +1939,7 @@
         {
           "id": 93,
           "name": "Glutensiz Sote Bun (3 adet)",
-          "description": "Tavuk sote, sweet chilli sos, jalapeno, ka?ar peynir",
+          "description": "Tavuk sote, sweet chilli sos, jalapeno, kaşar peynir",
           "priceOnline": "600",
           "priceRestaurant": "500",
           "featured": false,
@@ -1957,8 +1957,8 @@
         },
         {
           "id": 94,
-          "name": "Glutensiz Tand覺r Bun (3 adet)",
-          "description": "Kuzu tand覺r, cheddar peyniri, kibrit patates",
+          "name": "Glutensiz Tandır Bun (3 adet)",
+          "description": "Kuzu tandır, cheddar peyniri, kibrit patates",
           "priceOnline": "720",
           "priceRestaurant": "620",
           "featured": false,
@@ -1993,8 +1993,8 @@
         },
         {
           "id": 96,
-          "name": "Glutensiz Sebzeli Sandvi癟",
-          "description": "Domates sos, 覺zgara sebze, roka, ezine peyniri",
+          "name": "Glutensiz Sebzeli Sandviç",
+          "description": "Domates sos, ızgara sebze, roka, ezine peyniri",
           "priceOnline": "600",
           "priceRestaurant": "500",
           "featured": false,
@@ -2012,8 +2012,8 @@
         },
         {
           "id": 97,
-          "name": "Glutensiz Tavuklu So?uk Sandvi癟",
-          "description": "Tavuklu meze, so?an tur?usu, marul",
+          "name": "Glutensiz Tavuklu Soğuk Sandviç",
+          "description": "Tavuklu meze, soğan turşusu, marul",
           "priceOnline": "600",
           "priceRestaurant": "500",
           "featured": false,
@@ -2032,8 +2032,8 @@
         },
         {
           "id": 98,
-          "name": "Glutensiz Avokadolu Ekmek ?st羹",
-          "description": "Labneli avokado, ha?lanm覺? yumurta, 癟繹rekotu, maydanoz, s繹?羹?",
+          "name": "Glutensiz Avokadolu Ekmek Üstü",
+          "description": "Labneli avokado, haşlanmış yumurta, çörekotu, maydanoz, söğüş",
           "priceOnline": "600",
           "priceRestaurant": "500",
           "featured": false,
@@ -2052,8 +2052,8 @@
         },
         {
           "id": 99,
-          "name": "Glutensiz Hellimli Ekmek ?st羹",
-          "description": "?覺rp覺lm覺? yumurta, 覺zgara hellim, avokado, s繹?羹?",
+          "name": "Glutensiz Hellimli Ekmek Üstü",
+          "description": "Çırpılmış yumurta, ızgara hellim, avokado, söğüş",
           "priceOnline": "600",
           "priceRestaurant": "500",
           "featured": false,
@@ -2073,8 +2073,8 @@
         },
         {
           "id": 100,
-          "name": "Glutensiz Hindi F羹meli Ekmek ?st羹",
-          "description": "Labne, hindi f羹me, avokado, biberli omlet, s繹?羹?",
+          "name": "Glutensiz Hindi Fümeli Ekmek Üstü",
+          "description": "Labne, hindi füme, avokado, biberli omlet, söğüş",
           "priceOnline": "600",
           "priceRestaurant": "500",
           "featured": false,
@@ -2094,8 +2094,8 @@
         },
         {
           "id": 101,
-          "name": "Glutensiz Pesto Ekmek ?st羹",
-          "description": "Pesto sos, ezine peynirli avokado, g繹z yumurta, ac覺 ya?, s繹?羹?",
+          "name": "Glutensiz Pesto Ekmek Üstü",
+          "description": "Pesto sos, ezine peynirli avokado, göz yumurta, acı yağ, söğüş",
           "priceOnline": "600",
           "priceRestaurant": "500",
           "featured": false,
@@ -2115,8 +2115,8 @@
         },
         {
           "id": 102,
-          "name": "Glutensiz Humuslu Ekmek ?st羹",
-          "description": "Humus, 癟覺t覺r nohut, past覺rma, ac覺 ya?",
+          "name": "Glutensiz Humuslu Ekmek Üstü",
+          "description": "Humus, çıtır nohut, pastırma, acı yağ",
           "priceOnline": "600",
           "priceRestaurant": "500",
           "featured": false,
@@ -2134,8 +2134,8 @@
         },
         {
           "id": 103,
-          "name": "Glutensiz Mantarl覺 Ekmek ?st羹",
-          "description": "Sar覺msak kremas覺, avokado, soya soslu mantar, susam, s繹?羹?",
+          "name": "Glutensiz Mantarlı Ekmek Üstü",
+          "description": "Sarımsak kreması, avokado, soya soslu mantar, susam, söğüş",
           "priceOnline": "600",
           "priceRestaurant": "500",
           "featured": false,
@@ -2151,8 +2151,8 @@
         },
         {
           "id": 104,
-          "name": "Glutensiz Sweet Chilli Ekmek ?st羹",
-          "description": "Avokado, sweet chilli soslu 覺zgara hellim, s繹?羹?",
+          "name": "Glutensiz Sweet Chilli Ekmek Üstü",
+          "description": "Avokado, sweet chilli soslu ızgara hellim, söğüş",
           "priceOnline": "600",
           "priceRestaurant": "500",
           "featured": false,
@@ -2171,7 +2171,7 @@
         {
           "id": 105,
           "name": "Glutensiz Peynirli Tost",
-          "description": "Ka?ar peyniri, cheddar peyniri, s繹?羹?",
+          "description": "Kaşar peyniri, cheddar peyniri, söğüş",
           "priceOnline": "600",
           "priceRestaurant": "500",
           "featured": false,
@@ -2190,7 +2190,7 @@
         {
           "id": 106,
           "name": "Glutensiz SADE'nin Tostu",
-          "description": "Kuru domates sos, pesto sos, ka?ar peyniri, s繹?羹?",
+          "description": "Kuru domates sos, pesto sos, kaşar peyniri, söğüş",
           "priceOnline": "600",
           "priceRestaurant": "500",
           "featured": false,
@@ -2210,7 +2210,7 @@
         {
           "id": 107,
           "name": "Glutensiz Anne Tostu",
-          "description": "Beyaz peynir, domates, biber, ka?ar peyniri, s繹?羹?",
+          "description": "Beyaz peynir, domates, biber, kaşar peyniri, söğüş",
           "priceOnline": "600",
           "priceRestaurant": "500",
           "featured": false,
@@ -2229,7 +2229,7 @@
         {
           "id": 108,
           "name": "Glutensiz Sucuklu Tost",
-          "description": "Sucuk, ka?ar peyniri, s繹?羹?",
+          "description": "Sucuk, kaşar peyniri, söğüş",
           "priceOnline": "600",
           "priceRestaurant": "500",
           "featured": false,
@@ -2248,8 +2248,8 @@
         },
         {
           "id": 109,
-          "name": "Glutensiz Tand覺r Tost",
-          "description": "Kuzu tand覺r, eski ka?ar, s繹?羹?",
+          "name": "Glutensiz Tandır Tost",
+          "description": "Kuzu tandır, eski kaşar, söğüş",
           "priceOnline": "720",
           "priceRestaurant": "620",
           "featured": false,
@@ -2268,8 +2268,8 @@
         },
         {
           "id": 110,
-          "name": "Glutensiz ?覺t覺r D羹r羹m",
-          "description": "?覺t覺r tavuk, cajun sos, marul, jalapeno, mayonez",
+          "name": "Glutensiz Çıtır Dürüm",
+          "description": "Çıtır tavuk, cajun sos, marul, jalapeno, mayonez",
           "priceOnline": "550",
           "priceRestaurant": "450",
           "featured": false,
@@ -2288,8 +2288,8 @@
         },
         {
           "id": 111,
-          "name": "Glutensiz Tavuk D羹r羹m",
-          "description": "Mayonez, so?an, marul, tavuk sote, mayonez, jalapeno",
+          "name": "Glutensiz Tavuk Dürüm",
+          "description": "Mayonez, soğan, marul, tavuk sote, mayonez, jalapeno",
           "priceOnline": "520",
           "priceRestaurant": "420",
           "featured": false,
@@ -2308,7 +2308,7 @@
         {
           "id": 112,
           "name": "Glutensiz Tavuk Burrito",
-          "description": "Basmati, labne, soya soslu tavuk, havu癟, meksika fasulyesi, m覺s覺r, mayonez, jalapeno",
+          "description": "Basmati, labne, soya soslu tavuk, havuç, meksika fasulyesi, mısır, mayonez, jalapeno",
           "priceOnline": "650",
           "priceRestaurant": "550",
           "featured": false,
@@ -2329,7 +2329,7 @@
         {
           "id": 113,
           "name": "Glutensiz Mantar Burrito",
-          "description": "Sar覺msak kremas覺, avokado, soya soslu mantar, basmati, havu癟, m覺s覺r, meksika fasulyesi, jalapeno",
+          "description": "Sarımsak kreması, avokado, soya soslu mantar, basmati, havuç, mısır, meksika fasulyesi, jalapeno",
           "priceOnline": "670",
           "priceRestaurant": "570",
           "featured": false,
@@ -2345,7 +2345,7 @@
         {
           "id": 114,
           "name": "Glutensiz Meksika Burrito",
-          "description": "Basmati, bolonez sos, guacamole sos, meksika fasulyesi, m覺s覺r, ye?illik, mayonez, jalapeno",
+          "description": "Basmati, bolonez sos, guacamole sos, meksika fasulyesi, mısır, yeşillik, mayonez, jalapeno",
           "priceOnline": "750",
           "priceRestaurant": "650",
           "featured": false,
@@ -2362,8 +2362,8 @@
         },
         {
           "id": 115,
-          "name": "Glutensiz Tand覺r Burrito",
-          "description": "Basmati, SADE sos, kuzu tand覺r, cheddar, guacamole sos, mayonez, jalapeno",
+          "name": "Glutensiz Tandır Burrito",
+          "description": "Basmati, SADE sos, kuzu tandır, cheddar, guacamole sos, mayonez, jalapeno",
           "priceOnline": "800",
           "priceRestaurant": "700",
           "featured": false,
@@ -2383,7 +2383,7 @@
         {
           "id": 116,
           "name": "Glutensiz Simit Bowl",
-          "description": "Gulutensiz simit, ha?lanm覺? yumurta, ezine peyniri, ye?il zeytin, avokado, s繹?羹?",
+          "description": "Gulutensiz simit, haşlanmış yumurta, ezine peyniri, yeşil zeytin, avokado, söğüş",
           "priceOnline": "600",
           "priceRestaurant": "500",
           "featured": false,
@@ -2404,8 +2404,8 @@
         },
         {
           "id": 117,
-          "name": "Glutensiz K繹fte Burger",
-          "description": "Burger sos, marul, glutensiz k繹fte, cheddar peyniri, karamelize so?an, patates, mayonez, jalapeno",
+          "name": "Glutensiz Köfte Burger",
+          "description": "Burger sos, marul, glutensiz köfte, cheddar peyniri, karamelize soğan, patates, mayonez, jalapeno",
           "priceOnline": "650",
           "priceRestaurant": "550",
           "featured": false,
@@ -2425,7 +2425,7 @@
         {
           "id": 118,
           "name": "Glutensiz Vegan Burger",
-          "description": "Taco sos, vegan k繹fte, karamelize so?an, sote mantar, patates, taco sos, jalapeno",
+          "description": "Taco sos, vegan köfte, karamelize soğan, sote mantar, patates, taco sos, jalapeno",
           "priceOnline": "650",
           "priceRestaurant": "550",
           "featured": false,
@@ -2442,8 +2442,8 @@
         },
         {
           "id": 119,
-          "name": "Glutensiz Vegan Pasta ?e?itleri",
-          "description": "Limonlu, 癟ilekli, vi?neli",
+          "name": "Glutensiz Vegan Pasta Çeşitleri",
+          "description": "Limonlu, çilekli, vişneli",
           "priceOnline": "700",
           "priceRestaurant": "600",
           "featured": false,
@@ -2457,13 +2457,13 @@
     },
     {
       "id": "tatli-bowl",
-      "name": "Tatl覺 Bowl",
-      "icon": "?",
+      "name": "Tatlı Bowl",
+      "icon": "🍮",
       "items": [
         {
           "id": 130,
           "name": "Yulaf Bowl",
-          "description": "Yulaf lapas覺, muz, mevsim meyveleri, badem, yer f覺st覺?覺 ezmesi",
+          "description": "Yulaf lapası, muz, mevsim meyveleri, badem, yer fıstığı ezmesi",
           "priceOnline": "500",
           "priceRestaurant": "400",
           "featured": false,
@@ -2480,8 +2480,8 @@
         },
         {
           "id": 131,
-          "name": "Yo?urt Bowl",
-          "description": "Chia, granola, mevsim meyveleri, yer f覺st覺?覺 ezmesi",
+          "name": "Yoğurt Bowl",
+          "description": "Chia, granola, mevsim meyveleri, yer fıstığı ezmesi",
           "priceOnline": "500",
           "priceRestaurant": "400",
           "featured": false,
@@ -2500,7 +2500,7 @@
         {
           "id": 132,
           "name": "Smoothie Bowl",
-          "description": "?ilek, muz, granola, mevsim meyveleri, hindistan cevisi, bal",
+          "description": "Çilek, muz, granola, mevsim meyveleri, hindistan cevisi, bal",
           "priceOnline": "500",
           "priceRestaurant": "400",
           "featured": false,
@@ -2518,8 +2518,8 @@
         },
         {
           "id": 133,
-          "name": "?ikolatal覺 Smoothie Bowl",
-          "description": "Muz, kakao, granola, 癟ikolata, hindistan cevisi",
+          "name": "Çikolatalı Smoothie Bowl",
+          "description": "Muz, kakao, granola, çikolata, hindistan cevisi",
           "priceOnline": "500",
           "priceRestaurant": "400",
           "featured": false,
@@ -2540,7 +2540,7 @@
     {
       "id": "kurabiye",
       "name": "Kurabiye",
-      "icon": "?",
+      "icon": "🍪",
       "items": [
         {
           "id": 134,
@@ -2561,7 +2561,7 @@
         },
         {
           "id": 135,
-          "name": "Badem Kremal覺 Kurabiye",
+          "name": "Badem Kremalı Kurabiye",
           "description": "",
           "priceOnline": "300",
           "priceRestaurant": "200",
@@ -2578,7 +2578,7 @@
         },
         {
           "id": 136,
-          "name": "Antep F覺st覺?覺 Dolgulu Kurabiye",
+          "name": "Antep Fıstığı Dolgulu Kurabiye",
           "description": "",
           "priceOnline": "300",
           "priceRestaurant": "200",
@@ -2595,7 +2595,7 @@
         },
         {
           "id": 137,
-          "name": "Beyaz ?ikolata Dolgulu Kurabiye",
+          "name": "Beyaz Çikolata Dolgulu Kurabiye",
           "description": "",
           "priceOnline": "300",
           "priceRestaurant": "200",
@@ -2629,7 +2629,7 @@
         },
         {
           "id": 139,
-          "name": "Tatl覺 Kurabiye (kg)",
+          "name": "Tatlı Kurabiye (kg)",
           "description": "",
           "priceOnline": "1000",
           "priceRestaurant": "900",
@@ -2683,11 +2683,11 @@
     {
       "id": "smoothie",
       "name": "Smoothie",
-      "icon": "?奶",
+      "icon": "🥤",
       "items": [
         {
           "id": 120,
-          "name": "B繹?羹rtlenli Smoothie",
+          "name": "Böğürtlenli Smoothie",
           "description": "",
           "priceOnline": "200",
           "priceRestaurant": "200",
@@ -2719,7 +2719,7 @@
         },
         {
           "id": 122,
-          "name": "Ye?il Detoks Smoothie",
+          "name": "Yeşil Detoks Smoothie",
           "description": "",
           "priceOnline": "200",
           "priceRestaurant": "200",
@@ -2751,13 +2751,13 @@
     },
     {
       "id": "dogal-icecekler",
-      "name": "Do?al 襤癟ecekler",
-      "icon": "?",
+      "name": "Doğal İçecekler",
+      "icon": "🍹",
       "items": [
         {
           "id": 124,
-          "name": "Limonata ?e?itleri",
-          "description": "Sade, 癟ilekli, muzlu, b繹?羹rtlenli, s羹tl羹",
+          "name": "Limonata Çeşitleri",
+          "description": "Sade, çilekli, muzlu, böğürtlenli, sütlü",
           "priceOnline": "75",
           "priceRestaurant": "75",
           "featured": false,
@@ -2771,8 +2771,8 @@
         },
         {
           "id": 125,
-          "name": "Ayran ?e?itleri",
-          "description": "Sade, ye?il, sar覺, pembe",
+          "name": "Ayran Çeşitleri",
+          "description": "Sade, yeşil, sarı, pembe",
           "priceOnline": "75",
           "priceRestaurant": "75",
           "featured": false,
@@ -2786,7 +2786,7 @@
         },
         {
           "id": 126,
-          "name": "Yerli Gazoz ?e?itleri",
+          "name": "Yerli Gazoz Çeşitleri",
           "description": "",
           "priceOnline": "70",
           "priceRestaurant": "70",
@@ -2799,7 +2799,7 @@
         },
         {
           "id": 127,
-          "name": "?ay",
+          "name": "Çay",
           "description": "",
           "priceOnline": "60",
           "priceRestaurant": "60",
