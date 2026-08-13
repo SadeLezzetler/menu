@@ -659,8 +659,8 @@
           "id": 33,
           "name": "Tavuklu Salata",
           "description": "Marul, turşu, soğan, cherry domates, yoğurt sos, ızgara tavuk, mısır, meksika fasulyesi",
-          "priceOnline": "470",
-          "priceRestaurant": "370",
+          "priceOnline": "500",
+          "priceRestaurant": "400",
           "featured": true,
           "categories": {
             "protein": [
@@ -676,8 +676,8 @@
           "id": 34,
           "name": "Hellimli Salata",
           "description": "Marul, yeşillik, cherry domates, avokado sos, ızgara hellim, kabak çekirdeği",
-          "priceOnline": "470",
-          "priceRestaurant": "370",
+          "priceOnline": "500",
+          "priceRestaurant": "400",
           "featured": false,
           "categories": {
             "protein": [
@@ -693,8 +693,8 @@
           "id": 35,
           "name": "Falafelli Salata",
           "description": "Marul, karabuğday, yeşillik, falafel, tahin sos, susam, cherry domates",
-          "priceOnline": "470",
-          "priceRestaurant": "370",
+          "priceOnline": "500",
+          "priceRestaurant": "400",
           "featured": false,
           "categories": {
             "protein": [],
@@ -711,8 +711,8 @@
           "id": 36,
           "name": "Çıtır Salata",
           "description": "Marul, roka, turşu, kırmızı soğan, domates, çıtır tavuk, ballı hardal",
-          "priceOnline": "470",
-          "priceRestaurant": "370",
+          "priceOnline": "500",
+          "priceRestaurant": "400",
           "featured": false,
           "categories": {
             "protein": [
@@ -730,8 +730,8 @@
           "id": 37,
           "name": "Ton Balıklı Salata",
           "description": "Marul, yeşillik, cherry domates, ton balığı",
-          "priceOnline": "470",
-          "priceRestaurant": "370",
+          "priceOnline": "500",
+          "priceRestaurant": "400",
           "featured": false,
           "categories": {
             "protein": [
