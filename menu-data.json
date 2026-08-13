@@ -927,8 +927,8 @@
           "id": 46,
           "name": "Çıtır Tavuk Dürüm",
           "description": "Cajun sos, çıtır tavuk, marul, jalapeno, mayonez",
-          "priceOnline": "500",
-          "priceRestaurant": "400",
+          "priceOnline": "570",
+          "priceRestaurant": "470",
           "featured": true,
           "categories": {
             "protein": [
@@ -947,8 +947,8 @@
           "id": 47,
           "name": "Tavuk Dürüm",
           "description": "Mayonez, marul, tavuk, soğan, jalapone, mayonez",
-          "priceOnline": "470",
-          "priceRestaurant": "370",
+          "priceOnline": "540",
+          "priceRestaurant": "440",
           "featured": false,
           "categories": {
             "protein": [
@@ -967,8 +967,8 @@
           "id": 48,
           "name": "Köfte Dürüm",
           "description": "Anne köftesi, burger sos, kaşar peyniri, marul, karamelize soğan, mayonez, jalapeno",
-          "priceOnline": "500",
-          "priceRestaurant": "400",
+          "priceOnline": "570",
+          "priceRestaurant": "470",
           "featured": false,
           "categories": {
             "protein": [
@@ -988,8 +988,8 @@
           "id": 49,
           "name": "Tavuk Burrito",
           "description": "Basmati, labne, soya soslu marine edilmiş mantarlı tavuk göğüs, mısır, meksika fasulyesi, jalapeno, kibrit havuç, sarımsaklı mayonez",
-          "priceOnline": "550",
-          "priceRestaurant": "450",
+          "priceOnline": "620",
+          "priceRestaurant": "520",
           "featured": true,
           "categories": {
             "protein": [
@@ -1010,8 +1010,8 @@
           "id": 50,
           "name": "Meksika Burrito",
           "description": "Basmati, bolonez sos, guacamole sos, marul, jalapeno, mayonez, jalapeno",
-          "priceOnline": "650",
-          "priceRestaurant": "550",
+          "priceOnline": "720",
+          "priceRestaurant": "620",
           "featured": false,
           "categories": {
             "protein": [
@@ -1031,8 +1031,8 @@
           "id": 51,
           "name": "Köfte Burrito",
           "description": "Basmati, anne köftesi, köz biber, SADE sos, soğan, mayonez, jalapeno",
-          "priceOnline": "550",
-          "priceRestaurant": "450",
+          "priceOnline": "620",
+          "priceRestaurant": "520",
           "featured": false,
           "categories": {
             "protein": [
@@ -1053,8 +1053,8 @@
           "id": 52,
           "name": "Mantar Burrito (Vegan)",
           "description": "Basmati, avokado sos, sarımsak kreması, soya soslu mantar sote, havuç, mısır, marul, jalapeno",
-          "priceOnline": "570",
-          "priceRestaurant": "470",
+          "priceOnline": "640",
+          "priceRestaurant": "540",
           "featured": false,
           "categories": {
             "protein": [],
@@ -1071,8 +1071,8 @@
           "id": 53,
           "name": "Tandır Burrito",
           "description": "Basmati, SADE sos, guacamole sos, kuzu tandır, cheddar peyniri, mayonez, jalapeno",
-          "priceOnline": "700",
-          "priceRestaurant": "600",
+          "priceOnline": "770",
+          "priceRestaurant": "670",
           "featured": false,
           "categories": {
             "protein": [
