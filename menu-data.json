@@ -752,8 +752,8 @@
           "id": 38,
           "name": "Acılı Çıtır",
           "description": "Cajun soslu çıtır tavuk, patates, karamelize soğan sos, pembe sos",
-          "priceOnline": "470",
-          "priceRestaurant": "370",
+          "priceOnline": "500",
+          "priceRestaurant": "400",
           "featured": false,
           "categories": {
             "protein": [
@@ -771,8 +771,8 @@
           "id": 39,
           "name": "Sweet Chilli Çıtır",
           "description": "Sweet Chilli soslu çıtır tavuk, patates, karamelize soğan sos, pembe sos",
-          "priceOnline": "470",
-          "priceRestaurant": "370",
+          "priceOnline": "500",
+          "priceRestaurant": "400",
           "featured": false,
           "categories": {
             "protein": [
@@ -790,8 +790,8 @@
           "id": 40,
           "name": "Çıtır Thai",
           "description": "Thai soslu çıtır tavuk, patates, köz biber sos, mayonez",
-          "priceOnline": "470",
-          "priceRestaurant": "370",
+          "priceOnline": "500",
+          "priceRestaurant": "400",
           "featured": false,
           "categories": {
             "protein": [
@@ -808,8 +808,8 @@
           "id": 41,
           "name": "Çıtır Köri",
           "description": "Körili çıtır tavuk, patates, köz biber sos, mayonez",
-          "priceOnline": "470",
-          "priceRestaurant": "370",
+          "priceOnline": "500",
+          "priceRestaurant": "400",
           "featured": false,
           "categories": {
             "protein": [
