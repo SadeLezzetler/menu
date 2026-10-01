@@ -72,8 +72,8 @@
           "id": 4,
           "name": "Kinoalı Hellim Bowl",
           "description": "Kinoa salatası, ızgara hellim, avokado, kuru üzüm",
-          "priceOnline": "500",
-          "priceRestaurant": "400",
+          "priceOnline": "600",
+          "priceRestaurant": "500",
           "featured": false,
           "categories": {
             "protein": [
@@ -225,8 +225,8 @@
           "id": 12,
           "name": "Mantarlı Kuskus Bowl",
           "description": "Mantarlı peynir soslu kuskus, haşlanmış sebze, ızgara tavuk",
-          "priceOnline": "520",
-          "priceRestaurant": "420",
+          "priceOnline": "620",
+          "priceRestaurant": "520",
           "featured": true,
           "categories": {
             "protein": [
@@ -261,8 +261,8 @@
           "id": 14,
           "name": "Köfte Bowl",
           "description": "Pilav, çoban salata, anne köftesi, patates",
-          "priceOnline": "500",
-          "priceRestaurant": "400",
+          "priceOnline": "600",
+          "priceRestaurant": "500",
           "featured": false,
           "categories": {
             "protein": [
@@ -343,8 +343,8 @@
           "id": 18,
           "name": "Spesiyal Köfte Bowl",
           "description": "Pilav, sebzeli dometesli köfte, köz patlıcan salatası",
-          "priceOnline": "500",
-          "priceRestaurant": "400",
+          "priceOnline": "600",
+          "priceRestaurant": "500",
           "featured": false,
           "categories": {
             "protein": [
@@ -381,8 +381,8 @@
           "id": 20,
           "name": "Somon Bowl",
           "description": "Soya soslu patates, ızgara kabak, biber, somon",
-          "priceOnline": "750",
-          "priceRestaurant": "650",
+          "priceOnline": "830",
+          "priceRestaurant": "730",
           "featured": false,
           "categories": {
             "protein": [
@@ -398,8 +398,8 @@
           "id": 21,
           "name": "Kremalı Somon",
           "description": "Kinoa, krema soslu somon, roka, havuç",
-          "priceOnline": "750",
-          "priceRestaurant": "650",
+          "priceOnline": "830",
+          "priceRestaurant": "730",
           "featured": false,
           "categories": {
             "protein": [
@@ -417,8 +417,8 @@
           "id": 22,
           "name": "Teriyaki Soslu Somon",
           "description": "Basmati, teriyaki soslu somon, lahana turşusu, havuç",
-          "priceOnline": "750",
-          "priceRestaurant": "650",
+          "priceOnline": "830",
+          "priceRestaurant": "730",
           "featured": false,
           "categories": {
             "protein": [
@@ -436,8 +436,8 @@
           "id": 23,
           "name": "Tandır Bowl",
           "description": "Siyah pirinç, kuzu tandır, guacamole sos, baharatlı mısır, SADE sos, mısır",
-          "priceOnline": "750",
-          "priceRestaurant": "650",
+          "priceOnline": "830",
+          "priceRestaurant": "730",
           "featured": false,
           "categories": {
             "protein": [
@@ -455,8 +455,8 @@
           "id": 24,
           "name": "Happy Fish",
           "description": "Pesto soslu kuskus, somon, salata",
-          "priceOnline": "750",
-          "priceRestaurant": "650",
+          "priceOnline": "830",
+          "priceRestaurant": "730",
           "featured": false,
           "categories": {
             "protein": [
@@ -1230,8 +1230,8 @@
           "id": 60,
           "name": "Çıtır Bun (3 adet)",
           "description": "Cajun sos, marul, kuru soğan, çıtır tavuk",
-          "priceOnline": "500",
-          "priceRestaurant": "400",
+          "priceOnline": "600",
+          "priceRestaurant": "500",
           "featured": false,
           "categories": {
             "protein": [
@@ -1250,8 +1250,8 @@
           "id": 61,
           "name": "Köfte Bun (3 adet)",
           "description": "Burger sos, marul, domates, anne köftesi",
-          "priceOnline": "570",
-          "priceRestaurant": "470",
+          "priceOnline": "600",
+          "priceRestaurant": "500",
           "featured": false,
           "categories": {
             "protein": [
@@ -1290,8 +1290,8 @@
           "id": 63,
           "name": "Sucuk Bun (3 adet)",
           "description": "Izgara hellim, sucuk, domates, marul",
-          "priceOnline": "570",
-          "priceRestaurant": "470",
+          "priceOnline": "600",
+          "priceRestaurant": "500",
           "featured": false,
           "categories": {
             "protein": [
@@ -1332,8 +1332,8 @@
           "id": 65,
           "name": "Tofu Bun (3 adet) (Vegan)",
           "description": "SADE tofu, havuç, salatalık, lahana turşusu",
-          "priceOnline": "500",
-          "priceRestaurant": "400",
+          "priceOnline": "600",
+          "priceRestaurant": "500",
           "featured": false,
           "categories": {
             "protein": [
@@ -1372,8 +1372,8 @@
           "id": 67,
           "name": "Tandır Bun (3 adet)",
           "description": "Kuzu tandır, cheddar peyniri, kibrit patates",
-          "priceOnline": "620",
-          "priceRestaurant": "520",
+          "priceOnline": "750",
+          "priceRestaurant": "650",
           "featured": false,
           "categories": {
             "protein": [
@@ -1392,8 +1392,8 @@
           "id": 68,
           "name": "Meksika Bun (3 adet)",
           "description": "Bolonez sos, guacamole sos, kibrit patates",
-          "priceOnline": "600",
-          "priceRestaurant": "500",
+          "priceOnline": "700",
+          "priceRestaurant": "600",
           "featured": false,
           "categories": {
             "protein": [
@@ -1528,8 +1528,8 @@
           "id": 74,
           "name": "Sebzeli Sandviç",
           "description": "Foccacia ekmeği, domates sos, roka, ızgara sebzeler, ezine peyniri",
-          "priceOnline": "500",
-          "priceRestaurant": "400",
+          "priceOnline": "550",
+          "priceRestaurant": "450",
           "featured": false,
           "categories": {
             "protein": [
@@ -1548,8 +1548,8 @@
           "id": 75,
           "name": "Tavuklu Soğuk Sandviç",
           "description": "Foccaccia ekmeği, tavuklu meze, soğan turşusu, marul",
-          "priceOnline": "500",
-          "priceRestaurant": "400",
+          "priceOnline": "550",
+          "priceRestaurant": "450",
           "featured": false,
           "categories": {
             "protein": [
@@ -1752,8 +1752,8 @@
           "id": 84,
           "name": "Glutensiz SADE Tofu Bowl",
           "description": "Zerdeçallı basmati, SADE sos, tofu, salata, avokado",
-          "priceOnline": "500",
-          "priceRestaurant": "400",
+          "priceOnline": "600",
+          "priceRestaurant": "500",
           "featured": false,
           "categories": {
             "protein": [
@@ -1771,8 +1771,8 @@
           "id": 85,
           "name": "Glutensiz Vegan Thai Usulü Bowl",
           "description": "Basmati, thai soslu tofu, ızgara mantar, salata",
-          "priceOnline": "500",
-          "priceRestaurant": "400",
+          "priceOnline": "600",
+          "priceRestaurant": "500",
           "featured": false,
           "categories": {
             "protein": [
@@ -1790,8 +1790,8 @@
           "id": 86,
           "name": "Glutensiz Çıtır Tofu Salata",
           "description": "Marul, roka, cherry domates, salatalık, mısır, taze soğan, avokado, çıtır tofu, böğürtlen sos",
-          "priceOnline": "500",
-          "priceRestaurant": "400",
+          "priceOnline": "600",
+          "priceRestaurant": "500",
           "featured": false,
           "categories": {
             "protein": [
@@ -1807,8 +1807,8 @@
           "id": 87,
           "name": "Glutensiz Sweet Chilli Soslu Bowl",
           "description": "Basmati, haşlanmış sebze, sweet chilli soslu tofu",
-          "priceOnline": "500",
-          "priceRestaurant": "400",
+          "priceOnline": "600",
+          "priceRestaurant": "500",
           "featured": false,
           "categories": {
             "protein": [
@@ -1824,8 +1824,8 @@
           "id": 88,
           "name": "Glutensiz Pirinç Bowl",
           "description": "Siyah pirinç, humus, çıtır nohut, teriyaki soslu tofu, salata",
-          "priceOnline": "500",
-          "priceRestaurant": "400",
+          "priceOnline": "600",
+          "priceRestaurant": "500",
           "featured": false,
           "categories": {
             "protein": [
@@ -1995,8 +1995,8 @@
           "id": 96,
           "name": "Glutensiz Sebzeli Sandviç",
           "description": "Domates sos, ızgara sebze, roka, ezine peyniri",
-          "priceOnline": "600",
-          "priceRestaurant": "500",
+          "priceOnline": "800",
+          "priceRestaurant": "700",
           "featured": false,
           "categories": {
             "protein": [
@@ -2014,8 +2014,8 @@
           "id": 97,
           "name": "Glutensiz Tavuklu Soğuk Sandviç",
           "description": "Tavuklu meze, soğan turşusu, marul",
-          "priceOnline": "600",
-          "priceRestaurant": "500",
+          "priceOnline": "800",
+          "priceRestaurant": "700",
           "featured": false,
           "categories": {
             "protein": [
@@ -2444,8 +2444,8 @@
           "id": 119,
           "name": "Glutensiz Vegan Pasta Çeşitleri",
           "description": "Limonlu, çilekli, vişneli",
-          "priceOnline": "700",
-          "priceRestaurant": "600",
+          "priceOnline": "1000",
+          "priceRestaurant": "1000",
           "featured": false,
           "categories": {
             "protein": [],
