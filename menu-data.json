@@ -2667,8 +2667,8 @@
           "id": 141,
           "name": "Glutensiz Kurabiye",
           "description": "",
-          "priceOnline": "60",
-          "priceRestaurant": "50",
+          "priceOnline": "100",
+          "priceRestaurant": "80",
           "featured": false,
           "categories": {
             "protein": [],
