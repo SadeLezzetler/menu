@@ -204,24 +204,6 @@
           }
         },
         {
-          "id": 11,
-          "name": "Bulgur Bowl",
-          "description": "Meyhane pilavı, kaşarlı mantar, havuç tarator",
-          "priceOnline": "500",
-          "priceRestaurant": "400",
-          "featured": false,
-          "categories": {
-            "protein": [],
-            "carb": [
-              "pirinc-cesitleri"
-            ],
-            "allergens": [
-              "sut",
-              "gluten"
-            ]
-          }
-        },
-        {
           "id": 12,
           "name": "Mantarlı Kuskus Bowl",
           "description": "Mantarlı peynir soslu kuskus, haşlanmış sebze, ızgara tavuk",
@@ -724,21 +706,6 @@
               "bal",
               "yumurta-allergen"
             ]
-          }
-        },
-        {
-          "id": 37,
-          "name": "Ton Balıklı Salata",
-          "description": "Marul, yeşillik, cherry domates, ton balığı",
-          "priceOnline": "500",
-          "priceRestaurant": "400",
-          "featured": false,
-          "categories": {
-            "protein": [
-              "balik"
-            ],
-            "carb": [],
-            "allergens": []
           }
         }
       ]
@@ -1564,6 +1531,27 @@
               "yumurta-allergen"
             ]
           }
+        },
+        {
+          "id": 143,
+          "name": "Peynirli Sandviç",
+          "description": "Foccacia ekmeği, kuru domates, labne, cheddar, roka, kaşar peyniri, yeşil elma, pesto sos",
+          "priceOnline": "600",
+          "priceRestaurant": "500",
+          "featured": false,
+          "categories": {
+            "protein": [
+              "peynir"
+            ],
+            "carb": [
+              "ekmek-cesitleri"
+            ],
+            "allergens": [
+              "gluten",
+              "sut",
+              "yer-fistigi"
+            ]
+          }
         }
       ]
     },
@@ -1692,6 +1680,27 @@
               "gluten",
               "yumurta-allergen",
               "susam"
+            ]
+          }
+        },
+        {
+          "id": 142,
+          "name": "Sade Soslu Makarna",
+          "description": "Sade sos, sebze sote, ızgara tavuk",
+          "priceOnline": "600",
+          "priceRestaurant": "500",
+          "featured": false,
+          "categories": {
+            "protein": [
+              "tavuk"
+            ],
+            "carb": [
+              "makarna-noodle"
+            ],
+            "allergens": [
+              "gluten",
+              "yumurta-allergen",
+              "sut"
             ]
           }
         }
