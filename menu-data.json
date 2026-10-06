@@ -255,7 +255,8 @@
             ],
             "allergens": [
               "sut",
-              "yumurta-allergen"
+              "yumurta-allergen",
+              "gluten"
             ]
           }
         },
