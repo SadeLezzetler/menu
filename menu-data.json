@@ -911,7 +911,8 @@
             ],
             "allergens": [
               "gluten",
-              "yumurta-allergen"
+              "yumurta-allergen",
+              "sut"
             ]
           }
         },
@@ -2437,7 +2438,8 @@
             ],
             "allergens": [
               "sut",
-              "susam"
+              "susam",
+              "yumurta-allergen"
             ]
           }
         },
@@ -2574,7 +2576,7 @@
             "allergens": [
               "gluten",
               "sut",
-              "yumurta"
+              "yumurta-allergen"
             ]
           }
         },
@@ -2591,7 +2593,7 @@
             "allergens": [
               "gluten",
               "sut",
-              "yumurta"
+              "yumurta-allergen"
             ]
           }
         },
@@ -2608,7 +2610,7 @@
             "allergens": [
               "gluten",
               "sut",
-              "yumurta"
+              "yumurta-allergen"
             ]
           }
         },
@@ -2625,7 +2627,7 @@
             "allergens": [
               "gluten",
               "sut",
-              "yumurta"
+              "yumurta-allergen"
             ]
           }
         },
@@ -2642,7 +2644,7 @@
             "allergens": [
               "gluten",
               "sut",
-              "yumurta"
+              "yumurta-allergen"
             ]
           }
         },
@@ -2659,7 +2661,7 @@
             "allergens": [
               "gluten",
               "sut",
-              "yumurta",
+              "yumurta-allergen",
               "yer-fistigi"
             ]
           }
@@ -2677,7 +2679,7 @@
             "allergens": [
               "gluten",
               "sut",
-              "yumurta",
+              "yumurta-allergen",
               "susam"
             ]
           }
@@ -2693,7 +2695,7 @@
             "protein": [],
             "carb": [],
             "allergens": [
-              "yumurta"
+              "yumurta-allergen"
             ]
           }
         }
